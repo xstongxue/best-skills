@@ -41,7 +41,7 @@
 | Bug 修复  | dev-workflow | 「这里报错了：xxx」「功能跑不通，帮我修」「测试挂了，看看怎么回事」        |
 
 
-> **dev-workflow**：统一 Skill，根据用户表述自动匹配 requirement/design/implementation/review 四步之一。
+> **dev-workflow**：统一 Skill，根据用户表述自动匹配 requirement/design/implementation/review/bug-fix 五步之一。
 
 ## 自媒体创作
 
