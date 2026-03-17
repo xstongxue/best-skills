@@ -1,0 +1,1288 @@
+<mxfile host="Electron" modified="2026-03-13T10:30:50.890Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="_kQYI1WvetQxgMyWogJQ" type="device" pages="23">
+  <diagram id="p1_cover" name="封面">
+    <mxGraphModel dx="2868" dy="1672" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_school" value="XX大学" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=22;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry width="1880" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_kind" value="硕士学位论文答辩" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry y="170" width="1920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t1" value="基于深度学习与多传感器融合的" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=33;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="280" width="1680" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_t2" value="自动驾驶路径规划方法研究" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=33;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="350" width="1680" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_midline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="450" width="1200" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_b1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="540" width="10" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_i1" value="汇报人：张三" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="580" y="540" width="900" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_b2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="600" width="10" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_i2" value="指导教师：李教授" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="580" y="600" width="900" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_b3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="660" width="10" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_i3" value="学科专业：计算机科学与技术" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="580" y="660" width="900" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_b4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="720" width="10" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_i4" value="研究方向：计算机视觉 / 人工智能 / 自动驾驶" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="580" y="720" width="900" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=15;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1020" width="500" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2_toc" name="目录">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p2_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_title" value="  目录" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="200" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t1" value="01  研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="200" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="268" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t2" value="02  国内外研究现状" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="268" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="336" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t3" value="03  方法总览" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="336" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="404" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t4" value="04  实验结果" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="404" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="472" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t5" value="05  系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="472" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_b6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="140" y="540" width="10" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_t6" value="06  总结与展望" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="165" y="540" width="900" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_contents" value="CONTENTS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=60;fontStyle=1;fontColor=#E2E8F0;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="240" width="760" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3_sec01" name="01 研究背景与意义">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p3_sec01_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_wm" value="01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_num" value="01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_name" value="研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_sec01_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p4_01" name="01 内容页 1">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p4_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_title" value="  01. 研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_OhbVrp_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_oiVgRV_t" value="研究背景" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_5IfLBc_b" value="• 自动驾驶加速落地，安全与效率要求更高&#xa;• 路径规划处于“感知-决策-控制”链路核心，直接影响行驶安全性&#xa;• 城市复杂路况存在动态障碍物、交叉口博弈等不确定性&#xa;• 传统规则/搜索方法在复杂动态环境下适应性不足" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_bfnoGM_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="560" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_bJmTPS_t" value="研究意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_IAoCLr_b" value="• 深度强化学习具备端到端学习能力，可在交互中学习决策策略&#xa;• 多传感器融合提升环境建模鲁棒性与精度（LiDAR/Camera/Radar 互补）&#xa;• 面向复杂动态场景，兼顾实时性与可行性规划需求&#xa;• 为工程落地提供可复现实验与系统实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="610" width="1680" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5_01" name="01 内容页 2">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p5_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_title" value="  01. 研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_Z3aWZk_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_SBvrjn_t" value="关键挑战" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_9Wvgfy_b" value="• 动态障碍物避让与安全距离约束&#xa;• 局部最优与策略稳定性（训练收敛、泛化）&#xa;• 多源感知异步与噪声导致的融合误差&#xa;• 实时推理与规划延迟约束" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_gw2wMq_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="560" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_ZcUDIh_t" value="研究目标" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p5_7yfJs1_b" value="• 构建 DRL 路径规划优化算法，提高避障精度和规划效率&#xa;• 设计多传感器融合网络，提升复杂路况下鲁棒性和精度&#xa;• 在 CARLA 仿真平台构建数据集并进行系统评测&#xa;• 实现可演示系统，完成可视化监控与闭环验证" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="610" width="1680" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p6_01" name="01 内容页 3">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p6_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_title" value="  01. 研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_ON43xK_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_mTecQo_t" value="主要研究内容" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_Xsf2o3_b" value="• D-RL-Path：基于 DDPG 的路径规划优化与策略改进&#xa;• Fusion-Path：CNN+RNN 的多传感器特征融合与决策优化&#xa;• CARLA 数据集构建、指标体系与对比/消融实验&#xa;• 前后端分离系统实现与仿真平台验证" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_gyrDO1_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="560" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_xkxwnQ_t" value="章节安排" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="560" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p6_rS7RPe_b" value="• 第 1 章：背景与现状，提出问题与目标&#xa;• 第 2 章：理论基础、基准算法与评价指标&#xa;• 第 3–4 章：方法创新（DRL 优化 + 多传感器融合）&#xa;• 第 5–6 章：系统实现、总结与展望" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="610" width="1680" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7_sec02" name="02 国内外研究现状">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p7_sec02_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_wm" value="02" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_num" value="02" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_name" value="国内外研究现状" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p7_sec02_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p8_02" name="02 内容页 1">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p8_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_title" value="  02. 国内外研究现状" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_MOkIUp_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_kDyr7O_t" value="自动驾驶路径规划发展现状" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_SJoRu1_b" value="• 基于搜索/采样：A*、RRT* 等在结构化环境有效，但动态适应不足&#xa;• 基于优化：MPC 等可融合约束，但模型与计算成本较高&#xa;• 学习型方法：端到端建模，泛化与可解释性仍是难点&#xa;• DRL：通过交互学习策略，适合高维状态与不确定环境" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_XXdo0c_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="590" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_Zuzren_t" value="多传感器融合与深度学习应用" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="590" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p8_68K4Tu_b" value="• 融合层级：早期融合 / 特征融合 / 决策融合&#xa;• LiDAR 提供几何结构，Camera 提供语义信息，Radar 适合测速测距&#xa;• 深度融合（CNN/RNN/Attention）提升鲁棒性，但实时部署与异步对齐复杂&#xa;• 研究趋势：轻量化、多任务学习、端到端闭环验证" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="640" width="1680" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p9_02" name="02 内容页 2">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p9_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_title" value="  02. 国内外研究现状" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_nPFz46_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_PDjqip_t" value="现有方法局限性（本文切入点）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_VJIqVL_b" value="• 传统方法依赖规则或精确模型，面对高度动态场景性能下降&#xa;• 单传感器依赖导致感知不完整，易受遮挡/噪声影响&#xa;• 深度学习方法对数据依赖强，跨场景泛化不足&#xa;• 端到端系统缺少工程化验证与可复现实验对比" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_B5Lzxo_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="590" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_iGFfWd_t" value="本文工作定位" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="590" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p9_3hjOkY_b" value="• 以 DDPG 为基准，提出 DRL 路径规划优化方案（D-RL-Path）&#xa;• 以 CNN+RNN 为融合骨干，提出多传感器融合路径规划网络（Fusion-Path）&#xa;• 构建 CARLA 仿真数据集，定义评价指标并开展对比/消融实验&#xa;• 实现系统原型，支撑实验复现与演示验证" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="640" width="1680" height="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p10_sec03" name="03 方法总览">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p10_sec03_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_wm" value="03" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_num" value="03" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_name" value="方法总览" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_sub" value="深度强化学习路径规划优化 × 多传感器信息融合" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#DDE3EE;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="510" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p10_sec03_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p11_03" name="03 内容页 1">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p11_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_title" value="  03. 方法总览" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_RBMeyy_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_MDHqJ3_t" value="方法总览（合并汇报）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_8aRUhR_b" value="• 本文从“DRL 路径规划优化”和“多传感器信息融合”两方面提出改进&#xa;• 形成 D-RL-Path（算法优化）与 Fusion-Path（融合网络）两条技术线&#xa;• 目标：提升避障精度、路径效率、复杂路况鲁棒性与系统稳定性" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_blk1" value="环境感知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="140" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_arr1" value="" style="endArrow=block;endFill=1;strokeColor=#C9A84C;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="370" y="640" />
+              <mxPoint x="390" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11_blk2" value="状态表示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_arr2" value="" style="endArrow=block;endFill=1;strokeColor=#C9A84C;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="650" y="640" />
+              <mxPoint x="670" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11_blk3" value="策略网络" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="700" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_arr3" value="" style="endArrow=block;endFill=1;strokeColor=#C9A84C;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="930" y="640" />
+              <mxPoint x="950" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11_blk4" value="动作输出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="980" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_arr4" value="" style="endArrow=block;endFill=1;strokeColor=#C9A84C;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1210" y="640" />
+              <mxPoint x="1230" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11_blk5" value="轨迹生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_arr5" value="" style="endArrow=block;endFill=1;strokeColor=#C9A84C;strokeWidth=3;" parent="1" edge="1">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1490" y="640" />
+              <mxPoint x="1510" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p11_blk6" value="控制执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="100" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="118" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="136" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="154" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="172" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p11_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="190" y="980" width="8" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p12_03" name="03 内容页 2">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p12_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_title" value="  03. 方法总览" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_4IWrXP_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_vhsBkD_t" value="3.1 D-RL-Path（DRL 优化）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="800" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_a9U4Uq_b" value="• 以 DDPG 为基准，优化连续动作空间策略学习&#xa;• 引入轨迹预测/奖励设计，提升动态避障能力&#xa;• 提高规划实时性与稳定性，降低碰撞与震荡" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="780" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_GWlG6g_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_3Ot1OG_t" value="3.2 Fusion-Path（融合网络）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="170" width="820" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p12_MmjxWk_b" value="• 融合 LiDAR/Camera/Radar，多源信息互补&#xa;• CNN 提取空间特征，RNN 建模时序依赖&#xa;• 强化学习联合优化，提高复杂路况鲁棒性" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="220" width="800" height="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p13_03" name="03 内容页 3">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p13_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_title" value="  03. 方法总览" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_I9X7H6_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_aMuFbh_t" value="关键设计要点" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p13_7x41Zt_b" value="• 奖励函数：安全性（碰撞/距离）+ 效率（长度/耗时）+ 平滑性&#xa;• 状态编码：多传感器特征融合与时序建模&#xa;• 训练策略：经验回放、目标网络、探索噪声&#xa;• 工程约束：推理延迟与部署资源（实时性优先）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p14_sec04" name="04 实验结果">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p14_sec04_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_wm" value="04" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_num" value="04" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_name" value="实验结果" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_sub" value="对比实验与消融实验（CARLA）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#DDE3EE;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="510" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p14_sec04_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p15_04" name="04 内容页 1">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p15_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_title" value="  04. 实验结果" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_tb" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_tt" value="表 4-2  自动驾驶路径规划对比实验结果（CARLA）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_h0" value="方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="100" y="230" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_h1" value="碰撞率↓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="230" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_h2" value="任务完成率↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="660" y="230" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_h3" value="平均规划耗时↓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="920" y="230" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_h4" value="轨迹平滑度↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="230" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r1c0" value="A*（基线）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="100" y="274" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r1c1" value="18.4%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="420" y="274" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r1c2" value="72.1%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="660" y="274" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r1c3" value="243 ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="920" y="274" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r1c4" value="0.74" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="274" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r2c0" value="DDPG（基准）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="100" y="318" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r2c1" value="13.9%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="420" y="318" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r2c2" value="78.6%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="660" y="318" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r2c3" value="198 ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="920" y="318" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r2c4" value="0.81" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="318" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r3c0" value="D-RL-Path（本文）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDF5FF;strokeColor=#0170C1;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="362" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r3c1" value="11.3%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDF5FF;strokeColor=#0170C1;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="362" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r3c2" value="83.5%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDF5FF;strokeColor=#0170C1;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="362" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r3c3" value="176 ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDF5FF;strokeColor=#0170C1;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="362" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r3c4" value="0.87" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EDF5FF;strokeColor=#0170C1;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="362" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r4c0" value="Fusion-Path（本文）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="406" width="320" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r4c1" value="9.2%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="406" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r4c2" value="89.3%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="406" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r4c3" value="162 ms" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="406" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_r4c4" value="0.91" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF7E6;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="406" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_pdp4K8_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="520" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_ffUF0e_t" value="结论要点" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="520" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p15_WIXiiQ_b" value="• D-RL-Path 在避障精度与规划效率上优于基准算法&#xa;• Fusion-Path 通过多传感器融合进一步提升鲁棒性与综合性能&#xa;• 结果验证了 DRL 优化与融合网络两条创新路线的有效性" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="570" width="1680" height="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p16_04" name="04 内容页 2">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p16_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_title" value="  04. 实验结果" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ab" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_at" value="表 4-6  消融实验结果（Fusion-Path 各模块贡献）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ah0" value="配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=15;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="100" y="230" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ah1" value="碰撞率↓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=15;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="620" y="230" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ah2" value="任务完成率↑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=15;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="880" y="230" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar1c0" value="w/o CNN（仅用传统特征）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="100" y="274" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar1c1" value="14.8%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="620" y="274" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar1c2" value="79.2%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="880" y="274" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar2c0" value="w/o RNN（仅用单帧特征）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="100" y="318" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar2c1" value="12.1%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="620" y="318" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar2c2" value="84.7%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CBD5E1;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;" parent="1" vertex="1">
+          <mxGeometry x="880" y="318" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar3c0" value="Fusion-Path 完整模型（本文）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="362" width="520" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar3c1" value="9.2%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="362" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_ar3c2" value="89.3%" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#C9A84C;strokeWidth=2;fontSize=15;fontFamily=微软雅黑;fontColor=#1A1A2E;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="362" width="300" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_E8JkqH_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="720" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_3MB9n7_t" value="模块贡献" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="720" width="800" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_IWUSmT_b" value="• CNN 空间特征对感知与决策至关重要&#xa;• RNN 时序建模显著增强动态场景稳定性&#xa;• 完整模型取得最优综合性能" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="770" width="780" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="p16_imgbox" value="图 4-3 / 图 3-3：核心模块示意（占位）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#4A5568;fontSize=16;fontFamily=微软雅黑;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="720" width="840" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p17_sec05" name="05 系统设计与实现">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p17_sec05_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_wm" value="05" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_num" value="05" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_name" value="系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_sub" value="前后端分离架构与仿真平台验证" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#DDE3EE;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="510" width="1200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p17_sec05_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p18_05" name="05 内容页 1">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p18_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_title" value="  05. 系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_ab" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_at" value="图 5-2  自动驾驶系统架构图（前后端分离）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=16;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1500" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_fe" value="前端层（React）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="100" y="230" width="1720" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_fe0" value="路径可视化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="140" y="300" width="360" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_fe1" value="传感器数据监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="560" y="300" width="360" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_fe2" value="车辆状态监控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="980" y="300" width="360" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_fe3" value="任务管理与配置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#3D6B7A;strokeColor=none;fontColor=#FFFFFF;fontSize=16;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="300" width="360" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_api" value="REST API / WebSocket" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="370" width="1920" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_be" value="后端层（TensorFlow + ROS）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="100" y="420" width="1720" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_be0" value="路径规划模块（D-RL-Path / Fusion-Path）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC3300;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="140" y="490" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_be1" value="传感器数据处理（LiDAR / Camera / Radar）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC3300;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="560" y="490" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_be2" value="车辆控制模块（ROS 节点通信）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC3300;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="980" y="490" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_be3" value="地图构建模块（CARLA 接入）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC3300;strokeColor=none;fontColor=#FFFFFF;fontSize=14;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="490" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_sim" value="仿真平台（CARLA）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#444444;strokeColor=none;fontColor=#FFFFFF;fontSize=18;fontStyle=1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="100" y="590" width="1720" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_tzQPxC_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="680" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_5HChpo_t" value="系统功能特点" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="680" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p18_evbLJo_b" value="• 端到端路径规划与实时控制闭环&#xa;• 多传感器数据接入、同步与融合&#xa;• 实时可视化监控与任务管理&#xa;• CARLA 场景验证与演示复现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="730" width="1680" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p19_05" name="05 内容页 2">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p19_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_title" value="  05. 系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_LoaeTO_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_doe5c3_t" value="系统演示与流程" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="800" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_veGprQ_b" value="• 场景配置：道路/障碍物/交通规则&#xa;• 传感器接入：点云/图像/雷达测距&#xa;• 在线规划：策略输出轨迹与控制指令&#xa;• 界面展示：轨迹、速度、碰撞告警、延迟等" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="780" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_ui" value="系统界面/效果图（占位）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E2E8F0;strokeWidth=2;fontColor=#4A5568;fontSize=16;fontFamily=微软雅黑;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="980" y="170" width="840" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_FnIiU7_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="980" y="710" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_4KKEpY_t" value="工程要点" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="710" width="820" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p19_EZAmgg_b" value="• 多线程/异步：感知与控制解耦，降低延迟&#xa;• 模型部署：推理速度与稳定性优先&#xa;• 日志与回放：支持实验复现与调参" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="760" width="800" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p20_sec06" name="06 总结与展望">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p20_sec06_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_wm" value="06" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;opacity=18;" parent="1" vertex="1">
+          <mxGeometry x="0" y="220" width="1920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_num" value="06" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="180" y="380" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_name" value="总结与展望" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="420" y="390" width="1200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="180" y="610" width="1560" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="180" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="196" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="212" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="228" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="244" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="276" y="720" width="8" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p20_sec06_d8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="292" y="700" width="8" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p21_sum" name="总结与展望（内容）">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p21_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_title" value="  06. 总结与展望" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_lbox" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#0170C1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="820" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_lbdg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="12" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_lt" value="工作总结" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#0170C1;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="130" y="180" width="780" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_lb" value="1. 提出 D-RL-Path：基于 DDPG 的路径规划优化，提升避障精度与实时性&#xa;2. 提出 Fusion-Path：CNN+RNN 多传感器融合网络，提升鲁棒性与精度&#xa;3. 构建 CARLA 仿真数据集与指标体系，完成对比与消融实验验证&#xa;4. 实现前后端分离系统原型，完成仿真验证与演示" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=16;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="130" y="240" width="780" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_rbox" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C9A84C;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="170" width="820" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_rbdg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="170" width="12" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_rt" value="未来展望" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#C9A84C;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="180" width="780" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p21_rb" value="→ 引入更大规模真实道路数据，提升泛化能力与长尾场景鲁棒性&#xa;→ 研究多传感器实时融合的轻量化方案，降低计算开销&#xa;→ 探索基于 Transformer 的时序建模与决策，替代部分 RNN 结构&#xa;→ 推进真实路测或更高保真仿真评测，验证复杂路况可靠性" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=16;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="240" width="780" height="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p22_ach" name="已有成果">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p22_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F7F8FA;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="120" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_title" value="  已有成果" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_botline" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E2E8F0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_date" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="1044" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_QBwBAD_badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="170" width="10" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_3UdRPP_t" value="成果清单（可替换为真实信息）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="170" width="1700" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_gdzUvZ_b" value="• 论文工作：D-RL-Path / Fusion-Path 方法与系统实现&#xa;• 专利/软著：XXX（如有请替换）&#xa;• 竞赛/项目：XXX（如有请替换）&#xa;• 开源/报告：代码与实验复现说明（可选）" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="1680" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p22_note" value="提示：如需正式答辩，请将本页内容替换为真实成果（专利号/软著号/发表情况）。" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#C9A84C;strokeWidth=2;fontColor=#4A5568;fontSize=16;fontFamily=微软雅黑;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="100" y="920" width="1720" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p23_thanks" name="致谢 &amp; Q&amp;A">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p23_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_top" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="0" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="0" y="1074" width="1920" height="6" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_thx" value="感谢各位老师的聆听与指导！" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=39;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="290" width="1920" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=35;" parent="1" vertex="1">
+          <mxGeometry x="520" y="420" width="880" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_qa" value="Q  &amp;  A" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=60;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;opacity=85;" parent="1" vertex="1">
+          <mxGeometry x="0" y="460" width="1920" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_sign" value="汇报人：张三    指导教师：李教授    2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=16.5;fontColor=#DDE3EE;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="0" y="900" width="1920" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="140" y="720" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="156" y="740" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="172" y="720" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="188" y="740" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="204" y="720" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="220" y="740" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="236" y="720" width="8" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p23_d7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;opacity=25;" parent="1" vertex="1">
+          <mxGeometry x="252" y="740" width="8" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

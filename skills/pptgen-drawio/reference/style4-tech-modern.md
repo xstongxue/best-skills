@@ -4,6 +4,20 @@
 - 源文件：`通用ppt模板4.pptx`（13 页）
 - 画布：1920 × 1080（16:9，原模板宽约 338 mm）
 
+---
+
+## 论文答辩模式页序（通用）
+
+本风格在论文答辩模式下沿用 `pptgen-drawio/SKILL.md` 中定义的 **23 页通用页序**（封面、目录、01–06 各章节标题 + 内容、已有成果、致谢 / Q&A），本文件仅定义**配色/字体/版式实现细节**。
+
+---
+
+## 换行约定（避免导出特殊字符）
+
+- **只用真实 `\n` 做换行**（脚本里写 `"第 1 行\\n第 2 行"`）
+- **禁止**在 `value="..."` 中写 `&#xa;`、`&lt;br&gt;` 等实体或 HTML 标签
+- 依靠 `whiteSpace=wrap;html=1;` 实现自动换行；容器高度需预留足够空间
+
 ## 配色系统
 
 | 用途 | 色值 | 说明 |
@@ -15,51 +29,17 @@
 
 ## 字体规范
 
-| 用途 | 字体 | 字号 | 说明 |
-|------|------|------|------|
-| 主标题（封面） | `方正尚酷简体` | 48 pt | 封面主标题，现代设计感 |
-| 页面标题 | `方正尚酷简体` | 24–36 pt，`#0170C1` | 内容页/目录页标题 |
-| 英文副标题 | `Garage Gothic` | 24 pt | 如 `CONTENTS`，在标题下方 |
-| 信息/姓名 | `冬青黑体简体中文 W3` | 16–28 pt | 指导老师、汇报人信息 |
-| 正文 | `冬青黑体简体中文 W3` | 继承（约 16–20 pt） | 内容页正文 |
-| 日期 | `Century Gothic` | 18 pt | 封面日期信息 |
+- **整体与风格一保持一致**：封面主标题/副标题、目录标题与条目、节标题数字与章节名、内容页标题/正文/列表、图题/表题、底部日期、致谢等，统一沿用风格一在 `style1-classic-academic.md` 中给出的 `微软雅黑` 字体与字号体系。  
+- 如需强调“科技感”，可以在**个别英文单词或小标题**上适度使用科技感强的西文字体（如 `Century Gothic`），但不改变整体中文字体与字号级别。
 
 ## 版式规则（Draw.io 实现要点）
 
-### 封面页
-- 底部一条 `#0170C1` 全宽横条（高约 11 mm）：作为底部装饰线
-- 主标题 `方正尚酷简体`，48 pt，左对齐，黑色或深色
-- 汇报人/指导老师信息：`冬青黑体简体中文 W3`，16 pt，上下排列，右侧对齐
-- 日期 `Century Gothic`，18 pt
-- 院校名称在底部横条区域内或下方，小字白色
+- **基础结构与风格一完全一致**：封面、目录、节标题页、内容页、致谢页等整体布局（顶栏 120 px + 强调色细线 6 px + 底部细线 + 右下角日期等）全部复用风格一，只是将主色替换为科技蓝 `#0170C1`（强调色仍可用 `#C9A84C`，或按需要选用同色系浅/深蓝做强调）。  
+- “科技明快 / 现代前沿”主要通过配色和少量小装饰元素体现，不改变整体结构。
 
-### 内容页（标准布局）
-- 顶部三要素：
-  - 左侧 `#0170C1` 小竖色块（6 mm 宽 × 全高顶条 8 mm 高）
-  - 右侧延伸横条（`#0170C1`，全宽）
-  - 底部同样有 `#0170C1` 横条
-- 页面标题：`方正尚酷简体`，24–36 pt，`#0170C1`，左对齐
-- 英文副标题：`Garage Gothic`，24 pt，黑色
-- 正文：`冬青黑体简体中文 W3`，继承字号，段落分布自由
-
-### 内容卡片页（特殊版式）
-- 标题区：蓝色全宽色块（高约 16 mm），左侧带约 17 mm 宽的蓝色小色块叠加
-- 多个概念展示：「图标/关键词 + 副标题描述」的卡片并排（2–4 列）
-
-### 通用装饰
-- 顶部：左小蓝色块（6 mm）+ 右延伸大蓝色条（全宽 − 12 mm）
-- 底部：全宽蓝色条（8 mm 高）
-- 色块不设圆角（`rounded=0`），硬朗、干净
-
-## 文字换行要点（重要）
-
-Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常折行：
-
-1. **style 加 `whiteSpace=wrap`**：所有含文字的 cell 都必须加，缺一不可
-2. **容器高度要足够**：正文行高约 1.4 倍字号，多行文字需预留 `行数 × 字号 × 1.5` 的高度
-3. **不要用 `overflow=hidden`**：会裁掉溢出文字
-
-> 生成卡片正文时，高度建议：单行 ≈ 字号×2，两行 ≈ 字号×3.5，三行 ≈ 字号×5，宁可偏大不要偏小。
+### 通用装饰（可选增强）
+- 顶栏或正文区可增加 `fillColor=#0170C1` 的小竖色块/细横条，作为导航与强调，不改变布局。
+- 底部可叠加一条科技蓝细线作为装饰（与风格一底部细线并存或替换）。
 
 ## Draw.io XML 关键样式片段
 
@@ -79,14 +59,14 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
 </mxCell>
 
-<!-- 页面标题（单行，高度=字号×2） -->
-<mxCell id="ptitle" value="目录页" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
-  <mxGeometry x="120" y="80" width="600" height="72" as="geometry"/>
+<!-- 页面标题 -->
+<mxCell id="ptitle" value="目录页" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+  <mxGeometry x="120" y="80" width="600" height="60" as="geometry"/>
 </mxCell>
 
-<!-- 英文副标题（单行） -->
-<mxCell id="en" value="CONTENTS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
-  <mxGeometry x="120" y="150" width="400" height="48" as="geometry"/>
+<!-- 英文副标题 -->
+<mxCell id="en" value="CONTENTS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+  <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
 </mxCell>
 
 <!-- 封面底部全宽横条（封面页用） -->
@@ -94,13 +74,8 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="0" y="1040" width="1920" height="40" as="geometry"/>
 </mxCell>
 
-<!-- 封面主标题（可能折行，高度留足=字号×3） -->
-<mxCell id="ctitle" value="基于 XX 的系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontColor=#000000;fontFamily=方正尚酷简体;" vertex="1" parent="1">
-  <mxGeometry x="120" y="340" width="1400" height="144" as="geometry"/>
-</mxCell>
-
-<!-- 卡片正文示例（三行以内，高度=字号×5） -->
-<mxCell id="cardtext" value="正文内容，支持自动换行，长文字会在容器宽度内折行显示。" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
-  <mxGeometry x="120" y="500" width="400" height="90" as="geometry"/>
+<!-- 封面主标题 -->
+<mxCell id="ctitle" value="基于 XX 的系统设计与实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontColor=#000000;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+  <mxGeometry x="120" y="340" width="1400" height="100" as="geometry"/>
 </mxCell>
 ```

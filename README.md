@@ -6,7 +6,12 @@
 
 ## 效果预览
 
-**答辩 PPT（[pptgen-drawio](skills/pptgen-drawio/SKILL.md)）** · 源文件：[paper-defense.drawio](preview/paper-defense.drawio) · [paper-defense.pptx](preview/paper-defense.pptx)
+**答辩 PPT（[pptgen-drawio](skills/pptgen-drawio/SKILL.md)）**
+
+- **风格一 · 经典学术**：源文件  
+  [paper-defense-style1-classic.drawio](preview/paper-defense.drawio) · [paper-defense-style1-classic.pptx](preview/paper-defense.pptx)
+- **风格四 · 科技明快**：源文件  
+  [paper-defense-style4-tech.drawio](preview/paper-defense.drawio) · [paper-defense-style4-tech.pptx](preview/paper-defense.pptx)
 
 <table><tr>
 <td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
@@ -16,6 +21,10 @@
 **公众号封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover.drawio](preview/wechat_cover.drawio)
 
 ![公众号封面预览](preview/wechat_cover.drawio.png)
+
+**手绘图（[excalidraw-diagram](skills/excalidraw-diagram/SKILL.md)）** · 源文件：[excalidraw-transformer.excalidraw](preview/excalidraw-transformer.excalidraw.drawio)
+
+![公众号封面预览](preview/excalidraw-transformer.png)
 
 ## 本科&硕士学位论文
 

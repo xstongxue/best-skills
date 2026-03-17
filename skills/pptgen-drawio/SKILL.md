@@ -67,175 +67,73 @@ description: 根据论文或汇报内容生成多页 Draw.io 格式 PPT，支持
   - 含节标题过渡页（每章独立一页引入）时，10 分钟约 11 页；无过渡页时约 9 页
   - 节标题过渡页风格：大号数字 + 章节名，可参考 style2 风格或 style4（无过渡页）
 
+### 2.1 论文答辩模式默认页序（23 页，四种风格共享）
+
+当用户选择论文答辩模式、且未另行指定页数时，所有风格（style1–4）**默认采用统一的 23 页结构**：
+
+1. 封面  
+2. 目录  
+3. 01 研究背景与意义（节标题）  
+4–6. 01. 研究背景与意义（内容 3 页）  
+7. 02 国内外研究现状（节标题）  
+8–9. 02. 国内外研究现状（内容 2 页）  
+10. 03 方法总览（节标题）  
+11–13. 03. 方法总览（内容 3 页）  
+14. 04 实验结果（节标题）  
+15–16. 04. 实验结果（内容 2 页）  
+17. 05 系统设计（节标题）  
+18–19. 05. 系统设计与实现（内容 2 页）  
+20. 06 总结与展望（节标题）  
+21. 06. 总结与展望（内容 1 页）  
+22. 已有成果  
+23. 致谢 / Q & A  
+
+> 各 reference/styleX-*.md 只定义**样式与版式**（颜色、字体、组件布局），不再重复定义页序；如需修改默认页序，应在本 SKILL 中统一调整。
+
+### 2.2 文件命名与交付（建议，Windows 兼容）
+
+- **推荐命名（生成/导出阶段）**：优先使用 ASCII 文件名（英文字母/数字/中划线），减少 PowerShell/编码环境下中文文件名乱码、命令找不到文件等问题。
+  - 推荐：`defense-style4-tech.drawio`、`defense-style4-tech.pptx`
+  - 如必须中文名：建议先用 ASCII 名完成导出，再在资源管理器里重命名为中文
+- **交付顺序（推荐流程）**：先提供 `.drawio`（源文件）→ 执行命令导出 `.pptx`（交付文件）→ 校验页数
+- **交付依赖**：接收方只需打开 `.pptx`（必要时附 `.drawio`），不需要安装 Python；脚本/代码仅用于生成端自动写 XML（可选）。
+
 ### ⚠️ 已知坑清单（生成前逐条过）
 
-生成每一页 XML 前，必须按顺序检查以下所有坑，避免重复踩雷。
+生成每一页 XML 前，按下面 checklist 快速自检（只保留高频致命项）：
 
----
+#### ✅ 必过 checklist（10 条）
 
-#### 坑 #1：必须使用 mxfile 多页格式
+1. **多页结构**：根节点必须是 `<mxfile>`，且每页一个 `<diagram>`（否则导出会变 1 页）。
+2. **每页坐标系**：每个 `<diagram>` 内 `x` 从 0 开始；背景矩形 `x=0,y=0,w=1920,h=1080`；每页都有 `mxCell id="0"` 与 `mxCell id="1" parent="0"`。
+3. **ID 唯一**：全文件内所有 `mxCell id` 必须唯一；每个 `<diagram id="...">` 也必须唯一。
+4. **一次性写入**：`.drawio` 必须一次写完整（不要多次覆盖/拼接 XML）。
+5. **页数校验**：`drawio2pptx` 输出的 `(N slides)` 必须等于 `<diagram>` 数量。
+6. **每页 cell 数量**：封面 ≥ 12、节标题 ≥ 8、内容页 ≥ 15（避免“空页”）。
+7. **换行只用真实换行**：在生成 XML 时，正文多行必须写成**真实换行符**（代码里用 `\n` 拼接，再一次性写入文件），禁止在 `value="..."` 中写 `&#xa;` / `&lt;br&gt;` / `<font>/<b>`，也禁止通过 Shell 将 `&amp;#xa;` 替换成字面量 `` `n ``；文本 style 必含 `whiteSpace=wrap;html=1;`。
+8. **白字不要误替换**：顶栏/深色块文字保持 `fontColor=#FFFFFF`；背景色替换优先改 `fillColor`，不要全局替换所有 `#FFFFFF`。
+9. **遮挡检查**：带底色的装饰块不要跨越正文区域；两列卡片之间不要放有底色标签（会压住字）。
+10. **高度预算**：多行正文的卡片/容器宁可偏高留白，避免裁字（正文行高约 \(1.4\times\) 字号）。
 
-**drawio2pptx 只识别 `<mxfile>` 根节点 + 多个 `<diagram>` 子节点的格式**，每个 `<diagram>` 对应一张幻灯片。
-
-**禁止**使用单一 `<mxGraphModel>` 根节点横向铺排多页（会被识别为 1 张幻灯片）。
-
-**正确格式模板（必须严格遵守）：**
+#### 最小可用多页模板（仅示意结构）
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram id="page1_unique_id" name="封面">
-    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1"
-                  tooltips="1" connect="0" arrows="0" fold="0" page="1"
-                  pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+  <diagram id="p1" name="封面">
+    <mxGraphModel page="1" pageWidth="1920" pageHeight="1080">
       <root>
-        <mxCell id="0"/>
-        <mxCell id="1" parent="0"/>
-        <!-- 本页所有元素，x 坐标从 0 开始，不做跨页偏移 -->
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page2_unique_id" name="目录">
-    <!-- 同上结构，x/y 坐标同样从 0 开始 -->
+  <diagram id="p2" name="目录">
+    <mxGraphModel page="1" pageWidth="1920" pageHeight="1080">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+      </root>
+    </mxGraphModel>
   </diagram>
 </mxfile>
-```
-
----
-
-#### 坑 #2：每页坐标从 0 开始，不得跨页偏移
-
-- 每个 `<diagram>` 内部的所有 mxCell **x 坐标从 0 开始**，不得偏移（不能用 1960、3920 等跨页偏移）
-- 每页独立坐标系，背景矩形 `x="0" y="0" width="1920" height="1080"`
-- `<mxCell id="0"/>` 和 `<mxCell id="1" parent="0"/>` 必须出现在每页 root 内
-
----
-
-#### 坑 #3：mxCell id 全局唯一
-
-- 同一个文件内，**所有 diagram 的所有 mxCell id 必须全局唯一**
-- 推荐命名规则：`p{页号}_{元素缩写}`，如 `p1_bg`、`p2_title`、`p3_box1`
-- 绝对禁止不同页出现相同 id（会导致渲染错乱或解析失败）
-
----
-
-#### 坑 #4：diagram id 唯一
-
-- 每个 `<diagram>` 的 `id` 属性也必须唯一，推荐用 8 位随机字符串，如 `"aB3xKp7m"`
-
----
-
-#### 坑 #5：文件必须一次性写入
-
-- 同一个任务中如果多次调用 Write 写同一个文件名，后写的内容会覆盖前面的
-- 必须**一次性写入完整内容**，不可分多次追加
-- 若单次生成内容超长，**不可分割后合并**（XML 合并极易出错）；正确做法是减少每页装饰细节、合并相似页，确保能一次完整输出
-
----
-
-#### 坑 #6：导出页数验证
-
-- drawio2pptx 输出的 `(N slides)` 数字 **必须等于 diagram 数量**
-- 若显示 `(1 slides)` 而预期多页，说明 XML 格式错误（触发了坑 #1），需检查是否用了单根 `mxGraphModel` 格式
-
----
-
-#### 坑 #7：批量多风格时每种风格独立文件
-
-- 每种风格写入**独立文件名**，如 `paper-defense-style1.drawio`、`paper-defense-style2.drawio`
-- 每种风格**单独调用** drawio2pptx 导出
-- 不要尝试把多种风格写入同一个 drawio 文件
-
----
-
-#### 坑 #8：每页 mxCell 数量不得过少
-
-- 每个 `<diagram>` 内容页（非封面/目录/节标题页）**必须包含 15 个以上 mxCell**（含背景、标题、正文、色块、装饰等）
-- 节标题过渡页至少 8 个 cell；封面页至少 12 个 cell
-- **绝对禁止出现只有 1~3 个 cell 的内容页**——这意味着内容未被正确写入该页，必须检查并补全
-
-写入文件前可用以下脚本自验：
-```python
-import xml.etree.ElementTree as ET
-root = ET.parse('paper-defense.drawio').getroot()
-for d in root:
-    cells = [c for c in d.find('mxGraphModel/root') if c.get('id') not in ('0','1')]
-    print(d.get('name'), len(cells))
-```
-
----
-
-#### 坑 #9：浮层元素遮挡正文
-
-**问题**：将带背景色的装饰元素（按钮/标签/图标）放在两列卡片之间的 x 坐标，y 区间与卡片文字重叠，导致遮挡正文。
-
-**典型场景**：「研究问题」金色按钮 `x=760, width=400`，横跨左右两个宽 840 的卡片中间，遮挡右卡片内容。
-
-**检查方式**：装饰元素的 `[x, x+width]` 区间若与相邻文字卡片 x 区间重叠，且 y 区间也重叠 → 必须修改。
-
-**规则**：
-- 装饰性标签/按钮只能放在卡片**内部**（内边距范围内）或卡片**正下方独立区域**
-- 两列卡片之间的连接说明改用 `fillColor=none` 纯文字行，不加背景色
-- z 层顺序（id 写入顺序）：背景色块 → 卡片底色 → 正文文字 → 最后写装饰，越重要越靠后
-
-```xml
-<!-- ❌ 错误：按钮悬浮两卡片中间，遮挡文字 -->
-<mxCell id="badge" value="研究问题" style="...fillColor=#C9A84C;...">
-  <mxGeometry x="760" y="320" width="400" height="60"/>
-</mxCell>
-
-<!-- ✅ 正确：移到卡片下方，改为无背景文字行 -->
-<mxCell id="label" value="▼　核心研究问题" style="text;...fontColor=#C9A84C;fillColor=none;...">
-  <mxGeometry x="660" y="618" width="600" height="44"/>
-</mxCell>
-```
-
----
-
-#### 坑 #10：卡片高度不足，文字溢出底部
-
-**问题**：卡片背景色块高度未考虑实际换行后的文字行数，正文溢出卡片底部被视觉截断。
-
-**根本原因**：`whiteSpace=wrap` 让文字自动换行，但背景色块不会自动撑高，必须手动预算。
-
-**高度计算公式**：
-```
-卡片总高度 = 上内边距(20) + 标题行高(字号×2) + 分隔线(6) + 正文行数×字号×1.6 + 下内边距(24)
-```
-
-**快速参考（正文字号 19~20pt）**：
-
-| 正文行数 | 正文区最小高度 | 卡片建议总高度（含标题） |
-|---------|------------|---------------------|
-| 1 行 | 40px | 130px |
-| 2 行 | 70px | 170px |
-| 3 行 | 110px | 210px |
-| 4 行 | 150px | 260px |
-| 5 行 | 190px | 300px |
-
-> **原则：宁可偏高留白，不可偏矮截文。**
-
-**规则**：
-1. 生成前估算正文字数 ÷ (卡片宽度 / 字号 × 0.55) ≈ 行数，代入公式
-2. 文字容器底边（y + height）必须 ≤ 卡片底边（卡片 y + 卡片 height）− 20px
-3. 多列并排卡片（2×2、1×N）统一使用相同高度，不参差
-
-```xml
-<!-- ❌ 错误：卡片高220，4行正文实际需要~230px，溢出 -->
-<mxCell id="card_bg" style="...fillColor=#1B2A4A;">
-  <mxGeometry x="80" y="190" width="840" height="220"/>
-</mxCell>
-<mxCell id="card_body" style="text;...fontSize=20;">
-  <mxGeometry x="100" y="252" width="800" height="120"/>  <!-- 底边372，卡片底410，看似够但文字已换行超出 -->
-</mxCell>
-
-<!-- ✅ 正确：卡片高270，文字容器高180，底边432 < 卡片底460，余28px -->
-<mxCell id="card_bg" style="...fillColor=#1B2A4A;">
-  <mxGeometry x="80" y="190" width="840" height="270"/>
-</mxCell>
-<mxCell id="card_body" style="text;...fontSize=19;">
-  <mxGeometry x="100" y="252" width="800" height="180"/>
-</mxCell>
 ```
 
 ---
@@ -244,27 +142,38 @@ for d in root:
 
 ### Step 3：输出 Draw.io 文件
 
-将生成的 XML 写入工作区 `.drawio` 文件（论文答辩用 `paper-defense.drawio`，通用汇报用 `general-presentation.drawio`），并简述每页概要。
+将生成的 XML **一次性** 写入工作区 `.drawio` 文件（论文答辩用 `paper-defense.drawio`，通用汇报用 `general-presentation.drawio`），并简述每页概要。
 
-> 写入注意见坑 #5。
+> 写入方式需满足 checklist 第 4 条「一次性写入」与第 7 条「换行只用真实换行」的要求。
 
 ### Step 4：自动导出 PPT（必执行）
 
-生成 `.drawio` 后，**必须**自动执行：
+生成 `.drawio` 后，执行导出（推荐在生成端完成导出后再交付）：
 
-1. `pip install drawio2pptx -q`
+1. 如未安装：`pip install drawio2pptx -q`
 2. 切换到 `.drawio` 文件所在目录（**必须先 cd/Set-Location，否则找不到文件**）：
    ```powershell
    Set-Location "d:\你的项目目录"
    drawio2pptx <文件名>.drawio <文件名>.pptx
    ```
-3. 验证输出：`dir <文件名>.pptx`，确认文件存在且页数正确（输出中有 `Saved xxx.pptx (N slides)`）
-4. 若失败，提示用户手动执行
+3. 验证输出页数：输出中必须包含 `Saved xxx.pptx (N slides)`，且 \(N\) 等于 `<diagram>` 数量（对应 checklist 第 5 条「页数校验」）
 
-> 页数验证见坑 #6。
+> 页数验证需满足 checklist 第 5 条「页数校验」。
+
+### 导出失败排查（高频）
+
+- **Permission denied / 拒绝访问**：目标 `.pptx` 正在被 PowerPoint 占用。
+  - 解决：导出到新文件名（如 `*-v2.pptx`），或先关闭 PPT 再覆盖导出。
+- **中文文件名乱码/找不到文件**：终端编码导致路径解析异常。
+  - 解决：改用 ASCII 文件名生成与导出（见 2.2）。
 
 ### 其他注意事项
 
+- **统一字号规则（所有风格）**：  
+  - 内容页中文正文（段落 + 列表要点）统一使用 **18 pt**；  
+  - 内容页章节标题一般为 **30 pt**，节标题页大号数字/章节名继续按各 styleX 中示例执行；  
+  - 日期、页脚、小标签、图表表头等次要信息可保持 13–16 pt 之间的现有设计。
+- **字体推荐**：中文标题/正文优先使用 **微软雅黑** 或 **宋体**；数字、英文及公式使用 **Times New Roman**。各风格 reference 可在此基础上微调（如英文标题用 Georgia）。
 - XML 标签正确闭合，特殊字符转义（`&`→`&amp;`，`<`→`&lt;`）
-- 每页布局：背景全画布矩形、标题区 44–56pt、正文 24–32pt、留白充足
+- 每页布局：背景全画布矩形、标题区 44–56pt、正文按照 18pt 行高预留空间、留白充足
 - Windows 下不支持 `tail` 命令，Shell 输出截断请用 PowerShell 的 `Select-Object -Last N` 替代

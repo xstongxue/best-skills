@@ -4,6 +4,20 @@
 - 源文件：`通用ppt模板3.pptx`（11 页）
 - 画布：1920 × 1080（16:9）
 
+---
+
+## 论文答辩模式页序（通用）
+
+本风格在论文答辩模式下沿用 `pptgen-drawio/SKILL.md` 中定义的 **23 页通用页序**（封面、目录、01–06 各章节标题 + 内容、已有成果、致谢 / Q&A），本文件仅定义**配色/字体/版式实现细节**。
+
+---
+
+## 换行约定（避免导出特殊字符）
+
+- **只用真实 `\n` 做换行**（脚本里写 `"第 1 行\\n第 2 行"`）
+- **禁止**在 `value="..."` 中写 `&#xa;`、`&lt;br&gt;` 等实体或 HTML 标签
+- 依靠 `whiteSpace=wrap;html=1;` 实现自动换行；容器高度需预留足够空间
+
 ## 配色系统
 
 | 用途 | 色值 | 说明 |
@@ -17,43 +31,17 @@
 
 ## 字体规范
 
-| 用途 | 字体 | 字号 | 说明 |
-|------|------|------|------|
-| 中文主标题 | `微软雅黑` | 44 pt | 封面主标题 |
-| 内容页章节标题 | `Arial` | 继承（约 24–32 pt） | 章节标题 |
-| 正文内容 | `Times New Roman` | 继承（约 18–22 pt） | 内容页正文 |
-| 汇报人 / 院系 / 日期 | `微软雅黑` | 20 pt | 封面次要信息 |
+- **整体与风格一保持一致**：封面、目录、节标题、内容页、致谢等所有基础文字，全部沿用风格一在 `style1-classic-academic.md` 中给出的字体与字号配置（默认使用 `微软雅黑`）。  
+- 如需在个别页面使用英文字体增强层次，可在局部引入 `Arial` 等西文字体，但不改变整体中文字体体系和字号级别。
 
 ## 版式规则（Draw.io 实现要点）
 
-### 封面页
-- 右侧两个 `#2C5160` 小方块（约 14 × 15 mm），分别对应「汇报人」「院系」信息行
-- 主标题：`微软雅黑`，44 pt，`#2C5160`，左对齐偏上
-- 汇报人/院系/日期：`微软雅黑`，20 pt，`#2C5160`
-- **无顶部大色块**（与风格一不同），版式更简洁、平铺
+- **基础结构与风格一完全一致**：顶栏高度、金色分隔线、底部细线与日期区域等布局全部复用风格一，只是将主色/强调色替换为本风格的 `#2C5160` / `#B7472A`。  
+- 本风格的“暖色学术感”主要通过配色和少量小方块装饰实现，不改变整体版式结构。
 
-### 内容页
-- 页面编号标记：左侧 `数字 + 中文章节名`，用 `Arial` 字体，非粗体
-- 正文：`Times New Roman`，约 18 pt，段落间空行分隔
-- 章节名高亮：使用 `#B7472A` 暖砖红区分
-
-### 节标题（过渡）页
-- 简洁风：中央大字节标题，`#2C5160` 或 `#B7472A` 彩色字
-- 不一定要大色块背景
-
-### 通用装饰
-- 小方块装饰（14 × 15 mm）：`fillColor=#2C5160`，用于侧边信息标注
-- 细节处使用 `#B7472A` 暖色系点缀，而非红色
-
-## 文字换行要点（重要）
-
-Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常折行：
-
-1. **style 加 `whiteSpace=wrap`**：所有含文字的 cell 都必须加，缺一不可
-2. **容器高度要足够**：正文行高约 1.4 倍字号，多行文字需预留 `行数 × 字号 × 1.5` 的高度
-3. **不要用 `overflow=hidden`**：会裁掉溢出文字
-
-> 高度参考：单行 ≈ 字号×2，两行 ≈ 字号×3.5，三行 ≈ 字号×5，宁可偏大不要偏小。
+### 通用装饰（可选增强）
+- 右侧或段落旁可使用 `fillColor=#2C5160` 的小方块（约 14 × 15 mm）作信息标注。
+- 章节名、关键小标题可用 `#B7472A` 暖色强调。
 
 ## Draw.io XML 关键样式片段
 
@@ -63,23 +51,23 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="1580" y="520" width="40" height="55" as="geometry"/>
 </mxCell>
 
-<!-- 封面主标题（可能折行，高度=字号×3） -->
-<mxCell id="title" value="软件项目质量管理" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=44;fontColor=#2C5160;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="120" y="300" width="1400" height="132" as="geometry"/>
+<!-- 封面主标题 -->
+<mxCell id="title" value="软件项目质量管理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=44;fontColor=#2C5160;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="300" width="1400" height="80" as="geometry"/>
 </mxCell>
 
-<!-- 内容页章节标题（单行，高度=字号×2） -->
-<mxCell id="sec" value="1. 软件质量概述和控制" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=32;fontColor=#B7472A;fontFamily=Arial;" vertex="1" parent="1">
-  <mxGeometry x="120" y="160" width="1400" height="64" as="geometry"/>
+<!-- 内容页章节标题（Arial，暖红色强调） -->
+<mxCell id="sec" value="1. 软件质量概述和控制" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=32;fontColor=#B7472A;fontFamily=Arial;" vertex="1" parent="1">
+  <mxGeometry x="120" y="160" width="1000" height="50" as="geometry"/>
 </mxCell>
 
-<!-- 正文内容（多行，高度充裕，verticalAlign=top） -->
-<mxCell id="body" value="正文内容，支持自动换行显示。" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=22;fontColor=#000000;fontFamily=Times New Roman;" vertex="1" parent="1">
+<!-- 正文内容 -->
+<mxCell id="body" value="[正文内容...]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=22;fontColor=#000000;fontFamily=Times New Roman;" vertex="1" parent="1">
   <mxGeometry x="120" y="240" width="1680" height="600" as="geometry"/>
 </mxCell>
 
-<!-- 汇报人信息行（单行，高度=字号×2） -->
-<mxCell id="info" value="汇报人：xxx    院系：xxx    Date: 2024/01/01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#2C5160;fontFamily=微软雅黑;" vertex="1" parent="1">
+<!-- 汇报人信息行 -->
+<mxCell id="info" value="汇报人：xxx    院系：xxx    Date: 2024/01/01" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#2C5160;fontFamily=微软雅黑;" vertex="1" parent="1">
   <mxGeometry x="120" y="820" width="1400" height="40" as="geometry"/>
 </mxCell>
 ```

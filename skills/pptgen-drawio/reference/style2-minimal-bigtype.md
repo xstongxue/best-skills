@@ -4,6 +4,20 @@
 - 源文件：`通用ppt模板2.pptx`（24 页）
 - 画布：1920 × 1080（16:9）
 
+---
+
+## 论文答辩模式页序（通用）
+
+本风格在论文答辩模式下沿用 `pptgen-drawio/SKILL.md` 中定义的 **23 页通用页序**（封面、目录、01–06 各章节标题 + 内容、已有成果、致谢 / Q&A），本文件仅定义**配色/字体/版式实现细节**。
+
+---
+
+## 换行约定（避免导出特殊字符）
+
+- **只用真实 `\n` 做换行**（脚本里写 `"第 1 行\\n第 2 行"`）
+- **禁止**在 `value="..."` 中写 `&#xa;`、`&lt;br&gt;` 等实体或 HTML 标签
+- 依靠 `whiteSpace=wrap;html=1;` 实现自动换行；容器高度需预留足够空间
+
 ## 配色系统
 
 | 用途 | 色值 | 说明 |
@@ -17,51 +31,25 @@
 
 ## 字体规范
 
-| 用途 | 字体 | 字号 | 说明 |
-|------|------|------|------|
-| 目录章节大标题 | `微软雅黑`（加粗） | 88 pt | 目录页章节主标题 |
-| 辅助英文标题 | 继承 | 54 pt | 如 `CONTENT`、章节英文副标题 |
-| 节标题数字 | 继承 | **115 pt** | 「1」「2」等超大节号，冲击感极强 |
-| 节标题中文 | 继承（加粗） | 44 pt | 节标题中文内容 |
-| 目录条目 | 继承 | 28 pt | 如「第一部分 \| 选题背景和意义」 |
-| 正文细节 | `微软雅黑` | 11 pt | 说明性小字，1.3 倍行距 |
-| 子标题 | 继承（加粗） | 24 pt | 内容页小标题 |
-| 单位落款 | `+mj-ea`（系统默认东亚字体） | 16 pt | 封面院校名 |
+- **整体与风格一保持一致**：封面主标题、目录标题/条目、节标题数字与章节名、内容页标题/正文/列表、图表标题、底部日期、致谢页等，全部沿用风格一在 `style1-classic-academic.md` 中给出的字体与字号配置（默认使用 `微软雅黑`）。  
+- **本风格仅在视觉层面做“现代极简 / 大字报感”的微调**，例如：某些节标题页可以将节号字号适当放大、在目录页叠加更大的英文单词，但不引入额外字体族或完全不同的字号体系。
 
 ## 版式规则（Draw.io 实现要点）
 
-### 封面页
-- **极简设计**：主题大色块铺底（`#231F20` 深色或白底均可），院校名称小字落款居中偏下
-- 标题文字极大，直接铺满大半页面
+- **基础结构与风格一完全一致**：封面、目录、节标题页、内容页、致谢页都采用“顶栏色块 120 px + 强调色细线 6 px + 底部细线、右下角日期”等布局，只是将主色/强调色替换为本风格的 `#231F20` / `#F5C638`。  
+- 下列规则仅作为在风格一版式基础上的**装饰性增强建议**，生成脚本可以按需选择使用：
 
-### 目录页
-- 双语标题：大字（88 pt）「目录」+ 中等字（54 pt）「CONTENT」，视觉落差形成层次感
-- 条目采用「**第N部分** | 章节名」格式，竖向排列，28 pt
-- 背景可使用多个主题色色块分区，无固定 RGB，风格自由
+### 封面页（可选增强）
+- 在保持风格一封面结构的前提下，可将标题字号适当放大，营造“大字报”视觉冲击。
 
-### 节标题（过渡）页
-- **超大数字节号**（115 pt）左/右侧留白作为装饰
-- 节标题 44 pt 加粗，2 行：英文副标题在上，中文在下（或反之）
-- 背景色块使用主题色
+### 目录页（可选增强）
+- 可在目录区域叠加一行超大字号英文单词（如 `CONTENT`），与中文「目录」形成视觉对比。
 
-### 内容页
-- 顶部细横条（`#F5C638` 黄色）作为导航条，注明「第N部分 | 当前章节名」
-- 内容区域：24 pt 加粗子标题 + 11 pt 正文，极大留白
-- 最多 4 个并排卡片式布局（多列均分）
+### 节标题（过渡）页（可选增强）
+- 在原有 90 pt 节号基础上，允许略微放大节号，并保留大量留白以突出极简感。
 
-### 通用装饰
-- 小色块（约 8 × 7 mm）`fillColor=#F5C638`，作为内容页角标
-- 避免使用硬线条，倾向用色块/面来划分区域
-
-## 文字换行要点（重要）
-
-Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常折行：
-
-1. **style 加 `whiteSpace=wrap`**：所有含文字的 cell 都必须加，缺一不可
-2. **容器高度要足够**：正文行高约 1.4 倍字号，多行文字需预留 `行数 × 字号 × 1.5` 的高度
-3. **不要用 `overflow=hidden`**：会裁掉溢出文字
-
-> 高度参考：单行 ≈ 字号×2，两行 ≈ 字号×3.5，三行 ≈ 字号×5，宁可偏大不要偏小。
+### 内容页与装饰（可选增强）
+- 可以在内容区域增加 `fillColor=#F5C638` 的小角标色块或细横条，作为段落导航，不改变整体结构。
 
 ## Draw.io XML 关键样式片段
 
@@ -71,14 +59,14 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
 </mxCell>
 
-<!-- 超大节号数字（单行，高度=字号×2） -->
-<mxCell id="num" value="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=115;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="120" y="300" width="400" height="230" as="geometry"/>
+<!-- 超大节号数字 -->
+<mxCell id="num" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=115;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="300" width="400" height="300" as="geometry"/>
 </mxCell>
 
-<!-- 节标题中文（单行，高度=字号×2） -->
-<mxCell id="stitle" value="选题背景和意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=44;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="120" y="620" width="1200" height="88" as="geometry"/>
+<!-- 节标题中文 -->
+<mxCell id="stitle" value="选题背景和意义" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=44;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="620" width="800" height="80" as="geometry"/>
 </mxCell>
 
 <!-- 黄色导航角标 -->
@@ -86,13 +74,6 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="120" y="40" width="20" height="55" as="geometry"/>
 </mxCell>
 
-<!-- 目录条目（单行，高度=字号×2） -->
-<mxCell id="item" value="第一部分  |  选题背景和意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#231F20;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="200" y="300" width="1400" height="56" as="geometry"/>
-</mxCell>
-
-<!-- 正文小字（多行，高度按行数×字号×1.5预留，verticalAlign=top） -->
-<mxCell id="body" value="正文说明内容，支持自动换行。" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=11;fontColor=#231F20;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="200" y="500" width="1400" height="400" as="geometry"/>
-</mxCell>
+<!-- 目录条目示例 -->
+<!-- value="第一部分  |  选题背景和意义"，fontSize=28，fontFamily=微软雅黑 -->
 ```
