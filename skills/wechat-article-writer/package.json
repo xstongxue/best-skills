@@ -1,0 +1,32 @@
+{
+  "name": "wechat-article-writer",
+  "version": "1.0.0",
+  "description": "公众号/自媒体全流程创作工具：AI 写作 + 自动上传草稿箱",
+  "main": "scripts/upload-to-wechat.js",
+  "scripts": {
+    "upload": "node scripts/upload-to-wechat.js",
+    "export-images": "bash scripts/export-drawio.sh",
+    "export-covers": "bash scripts/export-drawio.sh covers",
+    "export-illustrations": "bash scripts/export-drawio.sh illustrations"
+  },
+  "keywords": [
+    "wechat",
+    "公众号",
+    "markdown",
+    "ai写作",
+    "自动化"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "form-data": "^4.0.0",
+    "markdown-it": "^14.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
