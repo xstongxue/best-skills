@@ -1,0 +1,67 @@
+<mxfile host="Electron" modified="2026-05-06T03:38:35.097Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="v1F4PNa7N4FaY_2I4EkQ" type="device">
+  <diagram id="QDXAYT8VAtotCAqflbz3" name="第 1 页">
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="0" pageScale="1" pageWidth="1283" pageHeight="383" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B8E8FF;gradientColor=#C0F0F8;gradientDirection=east;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry width="1283" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#90D0FF;strokeColor=none;opacity=55;" parent="1" vertex="1">
+          <mxGeometry x="18" y="20" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60C0FF;strokeColor=none;opacity=40;" parent="1" vertex="1">
+          <mxGeometry x="690" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="rounded=12;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=82;rotation=-2;" parent="1" vertex="1">
+          <mxGeometry x="72" y="118" width="640" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="rounded=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=75;rotation=-1;" parent="1" vertex="1">
+          <mxGeometry x="72" y="215" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="用了就回不去" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=66;fontStyle=1;fontColor=#1A2A3A;" parent="1" vertex="1">
+          <mxGeometry x="88" y="116" width="580" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Claude Code × GitHub Copilot" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=26;fontStyle=1;fontColor=#0055BB;" parent="1" vertex="1">
+          <mxGeometry x="88" y="214" width="540" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="模型搭配，终于顺手了" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontStyle=0;fontColor=#445566;" parent="1" vertex="1">
+          <mxGeometry x="88" y="280" width="360" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=26;fontColor=#0055BB;" parent="1" vertex="1">
+          <mxGeometry x="690" y="55" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontColor=#FF8C00;" parent="1" vertex="1">
+          <mxGeometry x="744" y="148" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontColor=#0055BB;" parent="1" vertex="1">
+          <mxGeometry x="48" y="310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#80C8F0;strokeColor=none;opacity=28;" parent="1" vertex="1">
+          <mxGeometry x="900" width="383" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#50B8F0;strokeColor=none;opacity=38;" parent="1" vertex="1">
+          <mxGeometry x="975" y="25" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="rounded=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;opacity=80;rotation=-2;" parent="1" vertex="1">
+          <mxGeometry x="918" y="150" width="348" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="用了就回不去" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=40;fontStyle=1;fontColor=#1A2A3A;" parent="1" vertex="1">
+          <mxGeometry x="908" y="148" width="368" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Claude Code × Copilot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#0055BB;" parent="1" vertex="1">
+          <mxGeometry x="908" y="224" width="368" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=20;fontColor=#FF8C00;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="295" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="小帅同学" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontColor=#445566;" parent="1" vertex="1">
+          <mxGeometry y="348" width="900" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="小帅同学" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=18;fontColor=#445566;" parent="1" vertex="1">
+          <mxGeometry x="900" y="344" width="383" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

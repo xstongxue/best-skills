@@ -18,9 +18,13 @@
 <td><img src="preview/paper-defense2.jpg" alt="答辩PPT预览2"/></td>
 </tr></table>
 
-**公众号封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover.drawio](preview/wechat_cover.drawio)
+**公众号封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover.drawio](preview/wechat-cover.drawio)
 
-![公众号封面预览](preview/wechat_cover.drawio.png)
+![公众号封面预览](preview/wechat-cover.drawio.png)
+
+**16:9封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover_169.drawio](preview/16to9_cover.drawio)
+
+![16：9封面预览](preview/16to9_cover.drawio.png)
 
 **手绘图（[excalidraw-diagram](skills/excalidraw-diagram/SKILL.md)）** · 源文件：[excalidraw-transformer.excalidraw](preview/excalidraw-transformer.excalidraw.drawio)
 
