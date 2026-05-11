@@ -1,0 +1,136 @@
+<mxfile host="Electron" modified="2026-05-07T03:27:26.290Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="6spo8HClsUoIR6Jh0SvP" type="device">
+  <diagram name="历史-中国古代朝代时间轴" id="edu-history-timeline">
+    <mxGraphModel dx="819" dy="478" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="720" pageHeight="300" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="endArrow=open;endFill=0;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="160" as="sourcePoint" />
+            <mxPoint x="690" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="约 2070 BC" style="text;html=1;fontSize=10;align=center;" parent="1" vertex="1">
+          <mxGeometry x="12" y="142" width="72" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="96" y="148" as="sourcePoint" />
+            <mxPoint x="96" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="夏" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="96" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#6C8EBF;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="96" y="148" as="sourcePoint" />
+            <mxPoint x="96" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="约2070—1600BC" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="54" y="172" width="84" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196" y="148" as="sourcePoint" />
+            <mxPoint x="196" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="商" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#6C8EBF;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="196" y="172" as="sourcePoint" />
+            <mxPoint x="196" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="约1600—1046BC" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="154" y="172" width="84" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="296" y="148" as="sourcePoint" />
+            <mxPoint x="296" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="西周" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="96" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#6C8EBF;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="296" y="148" as="sourcePoint" />
+            <mxPoint x="296" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="1046—771BC" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="254" y="172" width="84" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="148" as="sourcePoint" />
+            <mxPoint x="390" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="春秋战国" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="348" y="200" width="84" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#B85450;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="172" as="sourcePoint" />
+            <mxPoint x="390" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="770—221BC" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="354" y="172" width="72" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="148" as="sourcePoint" />
+            <mxPoint x="490" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="秦&#xa;（统一）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="454" y="96" width="72" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#D6B656;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="148" as="sourcePoint" />
+            <mxPoint x="490" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="221—206BC" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="454" y="172" width="72" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="148" as="sourcePoint" />
+            <mxPoint x="590" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="汉" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="554" y="200" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#6C8EBF;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="172" as="sourcePoint" />
+            <mxPoint x="590" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="206BC—220AD" style="text;html=1;fontSize=9;align=center;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="548" y="172" width="84" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="■ 朝代" style="text;html=1;fontSize=10;fontColor=#6C8EBF;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="260" width="60" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="■ 重大转折" style="text;html=1;fontSize=10;fontColor=#B85450;align=left;" parent="1" vertex="1">
+          <mxGeometry x="110" y="260" width="80" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="■ 统一节点" style="text;html=1;fontSize=10;fontColor=#D6B656;align=left;" parent="1" vertex="1">
+          <mxGeometry x="200" y="260" width="80" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="语文-古诗词脉络分析图" id="edu-chinese-poem">
+    <mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="660" pageHeight="320" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 诗题/作者（中心主题节点） -->
+        <mxCell id="2" value="《静夜思》&#xa;李白" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=15;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 意象节点 -->
+        <mxCell id="3" value="意象&#xa;明月 · 故乡" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 情感节点 -->
+        <mxCell id="4" value="情感&#xa;思乡 · 孤寂" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 手法节点 -->
+        <mxCell id="5" value="手法&#xa;借景抒情 · 对比" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=1.5;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="160" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线：主题 → 意象 -->
+        <mxCell id="6" value="" style="endArrow=open;endFill=0;html=1;strokeWidth=1.5;strokeColor=#6C8EBF;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线：主题 → 情感 -->
+        <mxCell id="7" value="" style="endArrow=open;endFill=0;html=1;strokeWidth=1.5;strokeColor=#82B366;" edge="1" parent="1" source="2" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- 连线：主题 → 手法 -->
+        <mxCell id="8" value="" style="endArrow=open;endFill=0;html=1;strokeWidth=1.5;strokeColor=#B85450;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- 意象 → 情感（意象触发情感） -->
+        <mxCell id="9" value="触发" style="endArrow=open;endFill=0;html=1;strokeWidth=1;strokeColor=#999999;fontSize=11;fontColor=#999999;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- 二级标注：意象细化 -->
+        <mxCell id="10" value="床前明月光&#xa;疑是地上霜" style="text;html=1;fontSize=11;fontStyle=2;fontColor=#6C8EBF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="238" width="200" height="34" as="geometry"/>
+        </mxCell>
+
+        <!-- 二级标注：手法细化 -->
+        <mxCell id="11" value="举头望明月&#xa;低头思故乡（对比）" style="text;html=1;fontSize=11;fontStyle=2;fontColor=#B85450;align=center;" vertex="1" parent="1">
+          <mxGeometry x="440" y="238" width="200" height="34" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

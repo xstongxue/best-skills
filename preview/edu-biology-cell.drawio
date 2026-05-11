@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="生物-动物细胞结构图" id="edu-biology-cell">
+    <mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="520" pageHeight="380" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 细胞膜（最外层椭圆，淡绿背景） -->
+        <mxCell id="2" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0FFF0;strokeColor=#82B366;strokeWidth=2.5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="380" height="280" as="geometry"/>
+        </mxCell>
+
+        <!-- 细胞核（黄色，偏左中） -->
+        <mxCell id="3" value="细胞核" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=2;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="130" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 核仁（小圆，细胞核内） -->
+        <mxCell id="4" value="核仁" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#D6B656;strokeColor=#A07020;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="203" y="143" width="44" height="34" as="geometry"/>
+        </mxCell>
+
+        <!-- 线粒体（右侧，椭圆） -->
+        <mxCell id="5" value="线粒体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="90" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- 线粒体 2（右下） -->
+        <mxCell id="6" value="线粒体" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=1.5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="80" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- 内质网（折线示意，左下区域） -->
+        <mxCell id="7" value="内质网" style="text;html=1;fontSize=11;align=center;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="78" y="225" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#888888;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="220" as="sourcePoint"/>
+            <mxPoint x="155" y="220" as="targetPoint"/>
+            <Array as="points"><mxPoint x="110" y="205"/><mxPoint x="135" y="220"/></Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 高尔基体（堆叠弧线，左上） -->
+        <mxCell id="9" value="高尔基体" style="text;html=1;fontSize=11;align=center;fontColor=#555555;" vertex="1" parent="1">
+          <mxGeometry x="78" y="80" width="76" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- 标注引线：细胞膜 -->
+        <mxCell id="10" value="细胞膜" style="text;html=1;fontSize=12;align=right;fontColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="0" y="60" width="56" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#82B366;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="56" y="70" as="sourcePoint"/>
+            <mxPoint x="90" y="90" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 图例 -->
+        <mxCell id="12" value="■ 细胞核" style="text;html=1;fontSize=10;fontColor=#D6B656;align=left;" vertex="1" parent="1">
+          <mxGeometry x="60" y="338" width="70" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="■ 线粒体" style="text;html=1;fontSize=10;fontColor=#D79B00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="140" y="338" width="70" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="■ 细胞膜（淡绿背景）" style="text;html=1;fontSize=10;fontColor=#82B366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="220" y="338" width="150" height="18" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

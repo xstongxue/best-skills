@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2026-03-06T01:18:34.529Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="r0WiQpGUaoSeX9iqHwYA" type="device">
+<mxfile host="Electron" modified="2026-05-07T05:04:10.476Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="O17y50_1Ba9dUnNldw_r" version="24.2.5" type="device">
   <diagram name="Skills封面" id="SkillsCover">
-    <mxGraphModel dx="4310" dy="2473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#1a365d" math="0" shadow="0">
+    <mxGraphModel dx="3187" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" background="#1a365d" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,7 @@
           <mxGeometry width="1920" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="3" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#3182ce;opacity=25;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-80" y="-80" width="500" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6cb0;opacity=20;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1500" y="700" width="500" height="500" as="geometry" />
+          <mxGeometry x="10" y="10" width="500" height="500" as="geometry" />
         </mxCell>
         <mxCell id="5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#63b3ed;strokeColor=none;opacity=15;" parent="1" vertex="1">
           <mxGeometry x="80" y="520" width="1760" height="4" as="geometry" />
@@ -51,6 +48,12 @@
         </mxCell>
         <mxCell id="17" value="&lt;font face=&quot;Consolas&quot; style=&quot;font-size: 22px&quot;&gt;&lt;font color=&quot;#718096&quot;&gt;---&lt;br&gt;name: paper-polish&lt;br&gt;description: 润色论文...&lt;br&gt;---&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#63b3ed&quot;&gt;## 使用时机&lt;/font&gt;&lt;br&gt;- 用户要求润色论文时&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#63b3ed&quot;&gt;## 指令&lt;/font&gt;&lt;br&gt;- 步骤1...&lt;br&gt;- 步骤2...&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Consolas;" parent="1" vertex="1">
           <mxGeometry x="1130" y="350" width="640" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="OgsTiF__JL2-FtGnbs1l-17" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6cb0;opacity=20;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="730" width="300" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#2b6cb0;opacity=20;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="540" width="500" height="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

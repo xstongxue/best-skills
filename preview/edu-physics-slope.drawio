@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="物理-斜面受力图" id="edu-physics-slope">
+    <mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="500" pageHeight="380" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 斜面（直角三角形） -->
+        <mxCell id="2" value="" style="shape=mxgraph.basic.right_triangle;fillColor=#F5F5F5;strokeColor=#000000;strokeWidth=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="300" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- 地面（水平线延伸） -->
+        <mxCell id="3" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="340" as="sourcePoint"/>
+            <mxPoint x="420" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 地面斜线纹（4条） -->
+        <mxCell id="4" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="60" y="340" as="sourcePoint"/><mxPoint x="40" y="360" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="110" y="340" as="sourcePoint"/><mxPoint x="90" y="360" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="6" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="160" y="340" as="sourcePoint"/><mxPoint x="140" y="360" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="360" y="340" as="sourcePoint"/><mxPoint x="340" y="360" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <!-- 倾斜角 θ 标注 -->
+        <mxCell id="8" value="θ" style="text;html=1;fontSize=16;fontStyle=2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="106" y="308" width="24" height="24" as="geometry"/>
+        </mxCell>
+
+        <!-- 物体（小正方形，在斜面中部，旋转30°近似位置） -->
+        <mxCell id="9" value="" style="rounded=0;fillColor=#BFBFBF;strokeColor=#000000;strokeWidth=1.5;html=1;rotation=-27;" vertex="1" parent="1">
+          <mxGeometry x="178" y="218" width="56" height="56" as="geometry"/>
+        </mxCell>
+
+        <!-- 物体中心点（用于箭头起点参考，约 206,246） -->
+
+        <!-- 重力 G（竖直向下） -->
+        <mxCell id="10" value="G" style="endArrow=block;endFill=1;html=1;strokeWidth=2;strokeColor=#B85450;fontStyle=1;fontSize=14;fontColor=#B85450;labelPosition=right;align=left;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="246" as="sourcePoint"/>
+            <mxPoint x="206" y="340" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 支持力 N（垂直斜面向上，斜向左上） -->
+        <mxCell id="11" value="N" style="endArrow=block;endFill=1;html=1;strokeWidth=2;strokeColor=#6C8EBF;fontStyle=1;fontSize=14;fontColor=#6C8EBF;labelPosition=left;align=right;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="246" as="sourcePoint"/>
+            <mxPoint x="152" y="152" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 摩擦力 f（沿斜面向上） -->
+        <mxCell id="12" value="f" style="endArrow=block;endFill=1;html=1;strokeWidth=2;strokeColor=#82B366;fontStyle=1;fontSize=14;fontColor=#82B366;labelPosition=right;align=left;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="246" as="sourcePoint"/>
+            <mxPoint x="300" y="192" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 辅助虚线：重力沿斜面分力方向 -->
+        <mxCell id="13" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="246" as="sourcePoint"/>
+            <mxPoint x="110" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#999999;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="206" y="340" as="sourcePoint"/>
+            <mxPoint x="152" y="246" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- 标注：G sin θ（沿斜面向下分量） -->
+        <mxCell id="15" value="G sinθ" style="text;html=1;fontSize=11;fontStyle=2;fontColor=#999999;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="70" height="18" as="geometry"/>
+        </mxCell>
+
+        <!-- 图例 -->
+        <mxCell id="16" value="● 重力 G（竖直向下）" style="text;html=1;fontSize=11;fontColor=#B85450;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="130" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="● 支持力 N（垂直斜面）" style="text;html=1;fontSize=11;fontColor=#6C8EBF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="234" width="130" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="● 摩擦力 f（沿斜面向上）" style="text;html=1;fontSize=11;fontColor=#82B366;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="258" width="140" height="18" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

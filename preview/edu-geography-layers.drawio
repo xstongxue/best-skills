@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2026-05-07T04:33:56.262Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="VZ39x0WqIcodI6cA1KWJ" type="device">
+  <diagram name="地理-地球圈层结构" id="edu-geography-layers">
+    <mxGraphModel dx="1195" dy="697" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="500" pageHeight="440" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=2.5;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="160" y="140" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FF8080;strokeColor=#AE4132;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="205" y="185" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="内核" style="text;html=1;fontSize=13;fontStyle=1;align=center;fontColor=#AE4132;" parent="1" vertex="1">
+          <mxGeometry x="217" y="207" width="56" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="外核" style="text;html=1;fontSize=12;align=left;fontColor=#B85450;" parent="1" vertex="1">
+          <mxGeometry x="330" y="196" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#B85450;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="206" as="sourcePoint" />
+            <mxPoint x="320" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="地幔" style="text;html=1;fontSize=12;align=left;fontColor=#D79B00;" parent="1" vertex="1">
+          <mxGeometry x="390" y="148" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#D79B00;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="158" as="sourcePoint" />
+            <mxPoint x="360" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="地壳" style="text;html=1;fontSize=12;align=left;fontColor=#82B366;" parent="1" vertex="1">
+          <mxGeometry x="418" y="88" width="44" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#82B366;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="98" as="sourcePoint" />
+            <mxPoint x="396" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="约 5–70 km" style="text;html=1;fontSize=10;fontColor=#82B366;align=left;" parent="1" vertex="1">
+          <mxGeometry x="420" y="110" width="68" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="约 2900 km" style="text;html=1;fontSize=10;fontColor=#D79B00;align=left;" parent="1" vertex="1">
+          <mxGeometry x="426" y="162" width="68" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="约 2200 km" style="text;html=1;fontSize=10;fontColor=#B85450;align=left;" parent="1" vertex="1">
+          <mxGeometry x="344" y="211" width="68" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="地球圈层结构（内部）" style="text;html=1;fontSize=14;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="152" y="410" width="220" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

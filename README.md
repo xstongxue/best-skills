@@ -6,18 +6,6 @@
 
 ## 效果预览
 
-**答辩 PPT（[pptgen-drawio](skills/pptgen-drawio/SKILL.md)）**
-
-- **风格一 · 经典学术**：源文件  
-  [paper-defense-style1-classic.drawio](preview/paper-defense.drawio) · [paper-defense-style1-classic.pptx](preview/paper-defense.pptx)
-- **风格四 · 科技明快**：源文件  
-  [paper-defense-style4-tech.drawio](preview/paper-defense.drawio) · [paper-defense-style4-tech.pptx](preview/paper-defense.pptx)
-
-<table><tr>
-<td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
-<td><img src="preview/paper-defense2.jpg" alt="答辩PPT预览2"/></td>
-</tr></table>
-
 **公众号封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover.drawio](preview/wechat-cover.drawio)
 
 ![公众号封面预览](preview/wechat-cover.drawio.png)
@@ -30,31 +18,81 @@
 
 ![公众号封面预览](preview/excalidraw-transformer.png)
 
+**答辩 PPT（[pptgen-drawio](skills/pptgen-drawio/SKILL.md)）**
+
+- **风格一 · 经典学术**：源文件  
+  [paper-defense-style1-classic.drawio](preview/paper-defense.drawio) · [paper-defense-style1-classic.pptx](preview/paper-defense.pptx)
+- **风格四 · 科技明快**：源文件  
+  [paper-defense-style4-tech.drawio](preview/paper-defense.drawio) · [paper-defense-style4-tech.pptx](preview/paper-defense.pptx)
+
+<table><tr>
+<td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
+<td><img src="preview/paper-defense2.jpg" alt="答辩PPT预览2"/></td>
+</tr></table>
+
+
+
+
+**技术架构图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 源文件：[cnn-architecture.drawio](preview/cnn-architecture.drawio)
+
+![CNN架构图](preview/cnn-architecture.drawio.png)
+
+**考试示意图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 支持数学、物理、化学、生物、地理、历史、语文
+
+<table>
+<tr>
+<td align="center"><img src="preview/edu-math-circle.drawio.png" alt="数学·圆"/><br/>数学·圆</td>
+<td align="center"><img src="preview/cuboid-edges.drawio.png" alt="数学·长方体"/><br/>数学·长方体</td>
+<td align="center"><img src="preview/edu-physics-slope.drawio.png" alt="物理·斜面受力"/><br/>物理·斜面受力</td>
+<td align="center"><img src="preview/edu-chemistry-atom.drawio.png" alt="化学·原子结构"/><br/>化学·原子结构</td>
+</tr>
+<tr>
+<td align="center"><img src="preview/edu-biology-cell.drawio.png" alt="生物·细胞结构"/><br/>生物·细胞结构</td>
+<td align="center"><img src="preview/edu-geography-layers.drawio.png" alt="地理·地球圈层"/><br/>地理·地球圈层</td>
+<td align="center"><img src="preview/edu-history-timeline.drawio.png" alt="历史·朝代时间轴"/><br/>历史·朝代时间轴</td>
+<td align="center"><img src="preview/edu-chinese-poem.drawio.png" alt="语文·古诗分析"/><br/>语文·古诗分析</td>
+</tr>
+</table>
+
 ## 本科&硕士学位论文
 
 
-| 用途                | Skill           | 示例 Prompt                                               |
-| ----------------- | --------------- | ------------------------------------------------------- |
-| 大纲审核（理工/文科）       | paper-write     | 「帮我审核一下这个论文大纲」（理工科 / 文科自动区分）                              |
-| 结构仿写（理工 science）   | paper-write     | 「按这篇范文仿写我的实验章节」「帮我写绪论/摘要，参考 XX 论文」                         |
-| 结构仿写（文科 liberal）   | paper-write     | 「文科仿写文献综述/理论章节」「文科仿写案例分析/对策建议」「写文科摘要」                        |
-| 润色 / 去 AI 化       | paper-write     | 「这段读起来像 AI 写的，帮我润色」「实验章节润色」「文科章节润色」                        |
-| 参考文献              | paper-write     | 「帮我找 RLHF 代表作并给 BibTeX」「cite Vaswani 的 attention」       |
-| 结构化信息提取           | paper-write     | 「从这篇论文提取结构化信息，用于答辩 PPT」                                 |
-| 系统章节生成            | codegen-doc     | 「根据当前项目生成系统总体设计章节」                                      |
-| 答辩 PPT / 通用汇报 PPT | pptgen-drawio   | 「帮我做答辩 PPT，论文在 xxx」「根据这个大纲生成汇报 PPT」                     |
-| 模型架构图 / 流程图       | drawio-diagram  | 「画一个 Transformer 架构图」「做一张算法流程图」                         |
-| 图片风格迁移            | drawio-diagram  | 「按这张参考图的风格画」「参考图+描述：画一个三层系统，前端 Vue、后端 Spring、数据库 MySQL」 |
-| 技术栈图              | codegen-diagram | 「根据当前项目画技术栈结构图」                                         |
-| 系统架构图             | codegen-diagram | 「画我们系统的四层架构图」                                           |
-| 数据结构图             | codegen-diagram | 「根据代码生成数据结构图」                                           |
-| E-R 图             | codegen-diagram | 「根据数据库表结构画 E-R 图」                                       |
+| 用途                | Skill         | 示例 Prompt                                         |
+| ----------------- | ------------- | ------------------------------------------------- |
+| 大纲审核（理工/文科）       | paper-write   | 「帮我审核一下这个论文大纲」（理工科 / 文科自动区分）                      |
+| 结构仿写（理工 science）   | paper-write   | 「按这篇范文仿写我的实验章节」「帮我写绪论/摘要，参考 XX 论文」               |
+| 结构仿写（文科 liberal）   | paper-write   | 「文科仿写文献综述/理论章节」「文科仿写案例分析/对策建议」「写文科摘要」             |
+| 润色 / 去 AI 化       | paper-write   | 「这段读起来像 AI 写的，帮我润色」「实验章节润色」「文科章节润色」              |
+| 参考文献              | paper-write   | 「帮我找 RLHF 代表作并给 BibTeX」「cite Vaswani 的 attention」 |
+| 结构化信息提取           | paper-write   | 「从这篇论文提取结构化信息，用于答辩 PPT」                           |
+| 系统章节生成            | codegen-doc   | 「根据当前项目生成系统总体设计章节」                                |
+| 答辩 PPT / 通用汇报 PPT | pptgen-drawio | 「帮我做答辩 PPT，论文在 xxx」「根据这个大纲生成汇报 PPT」               |
 
 
 > **paper-write**：统一 Skill，**理工（science-*）与文科（liberal-*）命名区分**。支持大纲审核（理工/文科）、结构仿写（理工：绪论/摘要/实验；文科：绪论/摘要/文献综述/案例分析/对策）、参考文献、润色（通用/实验章节/文科章节）、扩写/缩写、防 AIGC、中英互译、结构化信息提取。  
-> **codegen-diagram**：统一 Skill，根据用户表述自动匹配技术栈图、系统架构图、数据结构图、E-R 图。  
 > **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。  
-> **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。
+> **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。  
+> 模型架构图、技术栈图、考试示意图等详见「[图表绘制](#图表绘制)」章节。
+
+## 图表绘制
+
+
+| 用途 | Skill | 示例 Prompt |
+| --- | --- | --- |
+| 图片风格迁移 | drawio-diagram | 「按这张参考图的风格画」「照这个排版画三层系统，前端 Vue、后端 Spring、数据库 MySQL」 |
+| 深度学习模型架构图（CNN / Transformer / RNN 等） | drawio-diagram | 「画一个 CNN 架构图」「做 Transformer 结构图」 |
+| 算法流程图 / 数据流图 | drawio-diagram | 「画反向传播流程图」「做一张数据处理流程图」 |
+| 考试示意图（数学 / 物理 / 化学 / 生物 / 地理 / 历史 / 语文） | drawio-diagram | 「画物理斜面受力图」「绘制圆的基本元素」「画长方体标注尺寸」 |
+| 技术栈图 | codegen-diagram | 「根据当前项目画技术栈结构图」 |
+| 系统架构图 | codegen-diagram | 「画我们系统的四层架构图」 |
+| 数据结构图 | codegen-diagram | 「根据代码生成数据结构图」 |
+| E-R 图 | codegen-diagram | 「根据数据库表结构画 E-R 图」 |
+| 手绘风图表 | excalidraw-diagram | 「用手绘风格画系统架构图」「手绘流程图，发给非技术同事看」 |
+
+
+> **drawio-diagram**：支持**风格迁移**与**从零生成**与两种模式。风格迁移：上传参考图 + 描述内容 → 按参考图风格输出新图；从零生成覆盖：深度学习模型图（CNN / Transformer / GAN 等）、算法流程图、考试示意图（数学几何 / 物理受力 / 化学结构 / 生物细胞 / 地理圈层 / 历史时间轴 / 语文分析）。  
+> **codegen-diagram**：读取当前项目代码，自动匹配技术栈图、系统架构图、数据结构图、E-R 图四种类型。  
+> **excalidraw-diagram**：手绘风格，适合白板草图与非正式架构说明，输出标准 `.excalidraw` 文件。
 
 ## 开发流程五步法
 
@@ -68,7 +106,7 @@
 | Bug 修复 | dev-workflow | 「这里报错了：xxx」「功能跑不通，帮我修」「测试挂了，看看怎么回事」 |
 
 
-> **dev-workflow**：统一 Skill，根据用户表述自动匹配 requirement/design/implementation/review/bug-fix 五步之一。
+> **dev-workflow**：根据用户表述自动匹配 requirement/design/implementation/review/bug-fix 五步之一。
 
 ## 自媒体创作
 
@@ -116,14 +154,13 @@
 | 简历项目描述 | codegen-doc | 「按这个格式把当前项目写成简历项目经历」    |
 
 
-> **codegen-doc**：统一 Skill，根据用户表述自动匹配论文章节、项目梳理、重点问题、简历项目描述。
+> **codegen-doc**：根据用户表述自动匹配论文章节、项目梳理、重点问题、简历项目描述。
 
 ## 工具与扩展
 
 
 | 用途                | Skill                | 示例 Prompt                          |
 | ----------------- | -------------------- | ---------------------------------- |
-| 代码审查（多语言）         | code-review-skill    | 「审查这段 React 代码」「按 Vue 3 规范 review」 |
 | Skill 创建          | skill-create         | 「我经常要审查论文，帮我创建一个 Skill」            |
 | Skill 与 Prompt 互转 | skill-prompt-convert | 「把这个 Skill 转成聊天框可用的 Prompt」        |
 
@@ -143,7 +180,8 @@
 将 `skills/` 目录下的各 skill 文件夹复制到 IDE/插件 的 skills 目录，例如：
 
 - **Cursor**：`C:/Users/xs/.cursor/skills/` 或项目内 `.cursor/skills/`
-- **Codex**：`$CODEX_HOME/skills/` 或 `skills/public/`
+- **Claude Code**：`C:/Users/xs/.claude/skills/` 或项目内 `.claude/skills/`
+- **Codex**：`$CODEX_HOME/skills/` 或项目内 `.codex/skills/`
 
 ## 更多公开 Skills 资源
 

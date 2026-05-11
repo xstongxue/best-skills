@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2026-05-07T03:23:32.982Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="NT9FeDJF8kkkjq228twY" type="device">
+  <diagram name="化学-碳原子结构示意图" id="edu-chemistry-atom">
+    <mxGraphModel dx="819" dy="478" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="480" pageHeight="420" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="6p&#xa;6n" style="ellipse;aspect=fixed;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;strokeWidth=2;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="202" y="182" width="76" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="ellipse;aspect=fixed;fillColor=none;strokeColor=#6C8EBF;strokeWidth=1.5;dashed=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="130" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;aspect=fixed;fillColor=none;strokeColor=#82B366;strokeWidth=1.5;dashed=1;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="60" width="320" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="ellipse;aspect=fixed;fillColor=#6C8EBF;strokeColor=#4A6A9F;html=1;" parent="1" vertex="1">
+          <mxGeometry x="231" y="118" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="ellipse;aspect=fixed;fillColor=#6C8EBF;strokeColor=#4A6A9F;html=1;" parent="1" vertex="1">
+          <mxGeometry x="231" y="304" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="ellipse;aspect=fixed;fillColor=#82B366;strokeColor=#5A9350;html=1;" parent="1" vertex="1">
+          <mxGeometry x="231" y="50" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="ellipse;aspect=fixed;fillColor=#82B366;strokeColor=#5A9350;html=1;" parent="1" vertex="1">
+          <mxGeometry x="231" y="372" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="ellipse;aspect=fixed;fillColor=#82B366;strokeColor=#5A9350;html=1;" parent="1" vertex="1">
+          <mxGeometry x="71" y="211" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="ellipse;aspect=fixed;fillColor=#82B366;strokeColor=#5A9350;html=1;" parent="1" vertex="1">
+          <mxGeometry x="391" y="211" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="第一层：2个电子" style="text;html=1;fontSize=11;align=right;fontColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="271" y="121" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#6C8EBF;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298" y="133" as="sourcePoint" />
+            <mxPoint x="249" y="133" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="第二层：4个电子" style="text;html=1;fontSize=11;align=right;fontColor=#82B366;" parent="1" vertex="1">
+          <mxGeometry x="271" y="50" width="120" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#82B366;dashed=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="298" y="65" as="sourcePoint" />
+            <mxPoint x="249" y="65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="碳原子 (C)   原子序数：6" style="text;html=1;fontSize=14;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="139" y="390" width="240" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

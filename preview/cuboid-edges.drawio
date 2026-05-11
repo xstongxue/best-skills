@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="长方体棱长之和" id="cuboid-edges">
+    <mxGraphModel dx="1200" dy="800" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="560" pageHeight="320" background="#FFFFFF">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 顶点坐标说明（斜二测画法）
+             A(80,270) B(280,270) C(280,190) D(80,190)  ← 前面
+             E(160,220) F(360,220) G(360,140) H(160,140) ← 后面（深度偏移 +80,-50）
+             长 AB=200px(12dm)  高 BC=80px(5dm)  宽 BF≈94px(8dm) -->
+
+        <!-- ===== 实线棱（可见面 9 条）===== -->
+        <!-- 前面 4 条 -->
+        <mxCell id="2" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="80" y="270" as="sourcePoint"/><mxPoint x="280" y="270" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="3" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="280" y="270" as="sourcePoint"/><mxPoint x="280" y="190" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="4" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="280" y="190" as="sourcePoint"/><mxPoint x="80" y="190" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="80" y="190" as="sourcePoint"/><mxPoint x="80" y="270" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <!-- 深度棱（可见 3 条：右底、右顶、左顶） -->
+        <mxCell id="6" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="280" y="270" as="sourcePoint"/><mxPoint x="360" y="220" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="280" y="190" as="sourcePoint"/><mxPoint x="360" y="140" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="80" y="190" as="sourcePoint"/><mxPoint x="160" y="140" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <!-- 后面可见棱（顶边 + 右竖） -->
+        <mxCell id="9" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="360" y="140" as="sourcePoint"/><mxPoint x="160" y="140" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="360" y="220" as="sourcePoint"/><mxPoint x="360" y="140" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <!-- ===== 虚线棱（隐藏面 3 条）===== -->
+        <mxCell id="11" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="80" y="270" as="sourcePoint"/><mxPoint x="160" y="220" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="160" y="220" as="sourcePoint"/><mxPoint x="360" y="220" as="targetPoint"/></mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry"><mxPoint x="160" y="220" as="sourcePoint"/><mxPoint x="160" y="140" as="targetPoint"/></mxGeometry>
+        </mxCell>
+
+        <!-- ===== 尺寸标注 ===== -->
+        <mxCell id="14" value="12 dm" style="text;html=1;fontSize=13;fontStyle=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="275" width="80" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="5 dm" style="text;html=1;fontSize=13;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="287" y="220" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="8 dm" style="text;html=1;fontSize=13;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="325" y="255" width="50" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- ===== 解题过程框 ===== -->
+        <mxCell id="17" value="棱长之和：&#xa;4×(12+8+5)&#xa;= 4×25&#xa;= &lt;b&gt;100 dm&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;fontSize=13;align=left;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="410" y="178" width="130" height="104" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
