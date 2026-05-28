@@ -33,6 +33,7 @@
 <td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
 <td><img src="preview/paper-defense2.jpg" alt="答辩PPT预览2"/></td>
 </tr></table>
+
 **技术架构图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 支持深度学习模型架构图、算法流程图、UML 时序图
 
 <table><tr>
