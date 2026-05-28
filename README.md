@@ -10,6 +10,10 @@
 
 ![公众号封面预览](preview/wechat-cover.drawio.png)
 
+**公众号封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat-xs-parser-cover.drawio](preview/wechat-xs-parser-cover.drawio)
+
+![公众号封面·xs-parser](preview/wechat-xs-parser-cover.drawio.png)
+
 **16:9封面（[wechat-article-writer](skills/wechat-article-writer/SKILL.md)）** · 源文件：[wechat_cover_169.drawio](preview/16to9_cover.drawio)
 
 ![16：9封面预览](preview/16to9_cover.drawio.png)
@@ -29,30 +33,36 @@
 <td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
 <td><img src="preview/paper-defense2.jpg" alt="答辩PPT预览2"/></td>
 </tr></table>
+**技术架构图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 支持深度学习模型架构图、算法流程图、UML 时序图
 
-
-
-
-**技术架构图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 源文件：[cnn-architecture.drawio](preview/cnn-architecture.drawio)
-
-![CNN架构图](preview/cnn-architecture.drawio.png)
+<table><tr>
+<td><img src="preview/cnn-architecture.drawio.png" alt="CNN架构图"/><br/>CNN架构图 · 源文件：<a href="preview/cnn-architecture.drawio">cnn-architecture.drawio</a></td>
+<td><img src="preview/uml-sequence-login.drawio.png" alt="UML时序图·登录流程"/><br/>UML 时序图 · 源文件：<a href="preview/uml-sequence-login.drawio">uml-sequence-login.drawio</a></td>
+</tr></table>
 
 **考试示意图（[drawio-diagram](skills/drawio-diagram/SKILL.md)）** · 支持数学、物理、化学、生物、地理、历史、语文
 
 <table>
 <tr>
+<td align="center"><img src="preview/edu-math-function-parabola.drawio.png" alt="数学·函数图像"/><br/>数学·函数图像</td>
 <td align="center"><img src="preview/edu-math-circle.drawio.png" alt="数学·圆"/><br/>数学·圆</td>
 <td align="center"><img src="preview/cuboid-edges.drawio.png" alt="数学·长方体"/><br/>数学·长方体</td>
 <td align="center"><img src="preview/edu-physics-slope.drawio.png" alt="物理·斜面受力"/><br/>物理·斜面受力</td>
-<td align="center"><img src="preview/edu-chemistry-atom.drawio.png" alt="化学·原子结构"/><br/>化学·原子结构</td>
 </tr>
 <tr>
+<td align="center"><img src="preview/edu-physics-circuit-series-parallel.drawio.png" alt="物理·电路图"/><br/>物理·电路图</td>
+<td align="center"><img src="preview/edu-chemistry-atom.drawio.png" alt="化学·原子结构"/><br/>化学·原子结构</td>
 <td align="center"><img src="preview/edu-biology-cell.drawio.png" alt="生物·细胞结构"/><br/>生物·细胞结构</td>
 <td align="center"><img src="preview/edu-geography-layers.drawio.png" alt="地理·地球圈层"/><br/>地理·地球圈层</td>
+</tr>
+<tr>
 <td align="center"><img src="preview/edu-history-timeline.drawio.png" alt="历史·朝代时间轴"/><br/>历史·朝代时间轴</td>
 <td align="center"><img src="preview/edu-chinese-poem.drawio.png" alt="语文·古诗分析"/><br/>语文·古诗分析</td>
+<td></td>
+<td></td>
 </tr>
 </table>
+
 
 ## 本科&硕士学位论文
 
@@ -74,6 +84,25 @@
 > **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。  
 > 模型架构图、技术栈图、考试示意图等详见「[图表绘制](#图表绘制)」章节。
 
+## 中文发明专利
+
+| 用途 | Skill | 示例 Prompt |
+| --- | --- | --- |
+| 完整发明专利（全文） | patent-write | 「帮我写一份完整的发明专利」「提供技术方案，写完整说明书」 |
+| 题目优化 / 收敛 | patent-write | 「帮我优化这个专利题目」「题目太宽泛，帮我收敛」 |
+| 摘要 | patent-write | 「根据技术方案写摘要」 |
+| 背景技术 | patent-write | 「写背景技术，突出现有方案的缺陷」 |
+| 发明内容（技术方案 + 有益效果） | patent-write | 「写发明内容章节」 |
+| 权利要求 | patent-write | 「帮我写独立权利要求和从属权利要求」 |
+| 附图说明 | patent-write | 「根据附图写附图说明」 |
+| 附图绘制（Draw.io 黑白中文） | patent-write | 「帮我画专利附图」 |
+| 具体实施方式 | patent-write | 「展开具体实施方式，结合附图编号」 |
+| 统稿 / 术语一致性检查 | patent-write | 「帮我统稿，检查术语是否一致」 |
+| 参考专利蒸馏 / 仿写 | patent-write | 「分析这篇参考专利的写法套路」 |
+
+
+> **patent-write**：中文发明专利全流程 Skill，支持题目、摘要、背景技术、发明内容、权利要求、附图说明、附图绘制（Draw.io）、具体实施方式、统稿自检、参考专利蒸馏。默认写作顺序：提炼创新点 → 权利要求骨架 → 摘要/发明内容 → 具体实施方式 → 统稿。
+
 ## 图表绘制
 
 
@@ -83,6 +112,9 @@
 | 深度学习模型架构图（CNN / Transformer / RNN 等） | drawio-diagram | 「画一个 CNN 架构图」「做 Transformer 结构图」 |
 | 算法流程图 / 数据流图 | drawio-diagram | 「画反向传播流程图」「做一张数据处理流程图」 |
 | 考试示意图（数学 / 物理 / 化学 / 生物 / 地理 / 历史 / 语文） | drawio-diagram | 「画物理斜面受力图」「绘制圆的基本元素」「画长方体标注尺寸」 |
+| 数学函数图像（抛物线 / 一次函数 / 三角函数） | drawio-diagram | 「画 y=x² 的图像」「绘制 y=2x-1 函数图像，标注截距」 |
+| 物理电路图（串联 / 并联 / 含电流表和电压表） | drawio-diagram | 「画串联电路图（电源-开关-电阻-灯泡）」「画含电压表的并联电路」 |
+| UML 时序图 / 类图 / 状态图 | drawio-diagram | 「画用户登录的时序图」「画这个系统的 UML 类图」 |
 | 技术栈图 | codegen-diagram | 「根据当前项目画技术栈结构图」 |
 | 系统架构图 | codegen-diagram | 「画我们系统的四层架构图」 |
 | 数据结构图 | codegen-diagram | 「根据代码生成数据结构图」 |
@@ -90,7 +122,7 @@
 | 手绘风图表 | excalidraw-diagram | 「用手绘风格画系统架构图」「手绘流程图，发给非技术同事看」 |
 
 
-> **drawio-diagram**：支持**风格迁移**与**从零生成**与两种模式。风格迁移：上传参考图 + 描述内容 → 按参考图风格输出新图；从零生成覆盖：深度学习模型图（CNN / Transformer / GAN 等）、算法流程图、考试示意图（数学几何 / 物理受力 / 化学结构 / 生物细胞 / 地理圈层 / 历史时间轴 / 语文分析）。  
+> **drawio-diagram**：支持**风格迁移**与**从零生成**两种模式。风格迁移：上传参考图 + 描述内容 → 按参考图风格输出新图；从零生成覆盖：深度学习模型图（CNN / Transformer / GAN 等）、算法流程图、考试示意图（数学几何与函数 / 物理受力与电路 / 化学结构 / 生物细胞 / 地理圈层 / 历史时间轴 / 语文分析）、**UML 时序图 / 类图 / 状态图**。  
 > **codegen-diagram**：读取当前项目代码，自动匹配技术栈图、系统架构图、数据结构图、E-R 图四种类型。  
 > **excalidraw-diagram**：手绘风格，适合白板草图与非正式架构说明，输出标准 `.excalidraw` 文件。
 

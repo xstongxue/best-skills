@@ -248,3 +248,107 @@ y = cy − r × sin(θ)
   <mxGeometry x="200" y="100" width="240" height="200" as="geometry"/>
 </mxCell>
 ```
+
+### 函数图像（坐标系）
+
+#### 坐标映射规则
+
+Draw.io **y 轴向下**，数学坐标转屏幕坐标：
+
+```
+screen_x = origin_x + math_x × scale
+screen_y = origin_y − math_y × scale   ← 注意负号
+```
+
+建议参数：`origin = (300, 400)`，`scale = 50px/单位`，画布 `600×520`。
+
+#### 完整示例：y = x² 抛物线
+
+画布 600×520，原点 (300,400)，scale=50。
+
+关键坐标（数学 → 屏幕）：
+- (−2, 4) → (200, 200)
+- (−1, 1) → (250, 350)
+- (0, 0) → (300, 400) ← 顶点
+- (1, 1) → (350, 350)
+- (2, 4) → (400, 200)
+
+```xml
+<!-- x 轴 -->
+<mxCell id="2" value="x" style="endArrow=open;endFill=1;html=1;strokeWidth=1.5;fontSize=15;fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry"><mxPoint x="50" y="400" as="sourcePoint"/><mxPoint x="550" y="400" as="targetPoint"/></mxGeometry>
+</mxCell>
+<!-- y 轴 -->
+<mxCell id="3" value="y" style="endArrow=open;endFill=1;html=1;strokeWidth=1.5;fontSize=15;fontStyle=1;labelPosition=center;verticalLabelPosition=top;align=center;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry"><mxPoint x="300" y="470" as="sourcePoint"/><mxPoint x="300" y="40" as="targetPoint"/></mxGeometry>
+</mxCell>
+<!-- 原点 O -->
+<mxCell id="4" value="O" style="text;html=1;align=right;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+  <mxGeometry x="276" y="401" width="20" height="20" as="geometry"/>
+</mxCell>
+<!-- x 轴标签：-2, -1, 1, 2 -->
+<mxCell id="5" value="-2" style="text;html=1;align=center;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="188" y="408" width="24" height="20" as="geometry"/>
+</mxCell>
+<mxCell id="6" value="-1" style="text;html=1;align=center;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="238" y="408" width="24" height="20" as="geometry"/>
+</mxCell>
+<mxCell id="7" value="1" style="text;html=1;align=center;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="344" y="408" width="16" height="20" as="geometry"/>
+</mxCell>
+<mxCell id="8" value="2" style="text;html=1;align=center;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="394" y="408" width="16" height="20" as="geometry"/>
+</mxCell>
+<!-- y 轴标签：1, 2, 3, 4 -->
+<mxCell id="9" value="1" style="text;html=1;align=right;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="272" y="341" width="20" height="18" as="geometry"/>
+</mxCell>
+<mxCell id="10" value="2" style="text;html=1;align=right;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="272" y="291" width="20" height="18" as="geometry"/>
+</mxCell>
+<mxCell id="11" value="3" style="text;html=1;align=right;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="272" y="241" width="20" height="18" as="geometry"/>
+</mxCell>
+<mxCell id="12" value="4" style="text;html=1;align=right;fontSize=13;" vertex="1" parent="1">
+  <mxGeometry x="272" y="191" width="20" height="18" as="geometry"/>
+</mxCell>
+<!-- 抛物线 y = x²（curved=1 拟合，取 9 个控制点） -->
+<mxCell id="13" value="" style="curved=1;endArrow=none;html=1;strokeWidth=2.5;strokeColor=#D04A22;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="175" y="88" as="sourcePoint"/>
+    <mxPoint x="425" y="88" as="targetPoint"/>
+    <Array as="points">
+      <mxPoint x="200" y="200"/>
+      <mxPoint x="225" y="288"/>
+      <mxPoint x="250" y="350"/>
+      <mxPoint x="275" y="388"/>
+      <mxPoint x="300" y="400"/>
+      <mxPoint x="325" y="388"/>
+      <mxPoint x="350" y="350"/>
+      <mxPoint x="375" y="288"/>
+      <mxPoint x="400" y="200"/>
+    </Array>
+  </mxGeometry>
+</mxCell>
+<!-- 函数标签 -->
+<mxCell id="14" value="y = x²" style="text;html=1;align=left;fontSize=15;fontStyle=1;fontColor=#D04A22;" vertex="1" parent="1">
+  <mxGeometry x="416" y="165" width="70" height="24" as="geometry"/>
+</mxCell>
+<!-- 顶点 (0,0) 标注 -->
+<mxCell id="15" value="" style="ellipse;aspect=fixed;fillColor=#D04A22;strokeColor=#D04A22;html=1;" vertex="1" parent="1">
+  <mxGeometry x="297" y="397" width="6" height="6" as="geometry"/>
+</mxCell>
+<mxCell id="16" value="顶点 (0,0)" style="text;html=1;align=left;fontSize=11;fontColor=#D04A22;" vertex="1" parent="1">
+  <mxGeometry x="308" y="396" width="72" height="16" as="geometry"/>
+</mxCell>
+```
+
+**扩展：一次函数 y = kx + b（示例 y = 2x − 1）**
+
+取两个端点：x=−1 → screen(250,450)；x=3 → screen(450,250)。使用 `endArrow=none` 直线段连接两点，在线段附近添加函数标签文本。
+
+#### 常见注意事项
+
+- 同一坐标系绘制多个函数时，为每条曲线选用不同颜色（`strokeColor`）并在旁边标注函数表达式
+- 特殊点（交点、零点、极值点）用小实心圆 `ellipse;aspect=fixed;fillColor=#颜色` 标出，直径 6px
+- 刻度标签不要和轴线重叠，x 轴标签放 y=408，y 轴标签放 x=272（对齐右侧）

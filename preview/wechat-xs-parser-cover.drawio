@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2026-05-27T09:48:43.832Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" version="24.2.5" etag="PqtWQXVw2wcM1nHO57Gm" type="device">
+  <diagram id="cover1" name="Page-1">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1283" pageHeight="383" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeColor=none;fillColor=#B8F0D8;gradientColor=#C8F0C0;gradientDirection=northwest;" parent="1" vertex="1">
+          <mxGeometry width="1283" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeColor=none;fillColor=#A8E6CF;opacity=90;" parent="1" vertex="1">
+          <mxGeometry x="900" width="383" height="383" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#DDF8EA;opacity=70;" parent="1" vertex="1">
+          <mxGeometry x="640" y="40" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeColor=none;fillColor=#FFFFFF;opacity=78;rotation=-6;" parent="1" vertex="1">
+          <mxGeometry x="88" y="88" width="520" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;strokeColor=none;fillColor=#FFFFFF;opacity=78;rotation=-6;" parent="1" vertex="1">
+          <mxGeometry x="120" y="176" width="600" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="免费解析下载" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=64;fontColor=#111111;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="110" y="88" width="520" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="神器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1;fontSize=66;fontColor=#FF8C00;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="145" y="176" width="240" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="100+平台 / 批量下载 / 文案提取" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=0;fontSize=28;fontColor=#23433A;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="112" y="280" width="560" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="小帅解析器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=44;fontColor=#111111;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="955" y="94" width="270" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="无水印下载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=28;fontColor=#FF8C00;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="986" y="168" width="210" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="批量解析 · 文案提取" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=0;fontSize=24;fontColor=#23433A;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="946" y="214" width="290" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=26;fontColor=#111111;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="70" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=22;fontColor=#FF8C00;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="760" y="266" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="✦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=22;fontColor=#111111;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="64" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=3;fillColor=#B8F0D8;" parent="1" vertex="1">
+          <mxGeometry x="1165" y="276" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="XS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=1;fontSize=24;fontColor=#23433A;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="294" width="50" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="小帅良心安利" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontStyle=0;fontSize=24;fontColor=#444444;fontFamily=Microsoft YaHei;" parent="1" vertex="1">
+          <mxGeometry x="455" y="338" width="372" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

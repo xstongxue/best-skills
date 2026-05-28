@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="UML时序图-登录流程" id="uml-seq-login">
+    <mxGraphModel dx="1000" dy="600" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="520" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- 参与者头部 -->
+        <mxCell id="2" value="Client" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1.5;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="3" value="API Gateway" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1.5;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="4" value="Auth Service" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1.5;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="20" width="140" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="5" value="Database" style="rounded=1;arcSize=15;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=1.5;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="20" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <!-- 生命线（垂直虚线） -->
+        <mxCell id="6" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="60" as="sourcePoint"/>
+            <mxPoint x="120" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="60" as="sourcePoint"/>
+            <mxPoint x="290" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="60" as="sourcePoint"/>
+            <mxPoint x="470" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=1;strokeColor=#999999;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="60" as="sourcePoint"/>
+            <mxPoint x="650" y="460" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 激活条（execution specification bars） -->
+        <mxCell id="10" value="" style="rounded=0;fillColor=#DAE8FC;strokeColor=#6C8EBF;strokeWidth=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="100" width="14" height="270" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="" style="rounded=0;fillColor=#D5E8D4;strokeColor=#82B366;strokeWidth=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="120" width="14" height="210" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="" style="rounded=0;fillColor=#FFF2CC;strokeColor=#D6B656;strokeWidth=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="463" y="165" width="14" height="125" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="" style="rounded=0;fillColor=#F8CECC;strokeColor=#B85450;strokeWidth=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="643" y="215" width="14" height="50" as="geometry"/>
+        </mxCell>
+        <!-- 消息 ① Client→API: POST /login（同步） -->
+        <mxCell id="14" value="① POST /login" style="endArrow=block;endFill=1;html=1;strokeWidth=1.5;strokeColor=#000000;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="120" as="sourcePoint"/>
+            <mxPoint x="283" y="120" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 消息 ② API→Auth: validate(credentials)（同步） -->
+        <mxCell id="15" value="② validate(credentials)" style="endArrow=block;endFill=1;html=1;strokeWidth=1.5;strokeColor=#000000;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297" y="165" as="sourcePoint"/>
+            <mxPoint x="463" y="165" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 消息 ③ Auth→DB: SELECT user（同步） -->
+        <mxCell id="16" value="③ SELECT user" style="endArrow=block;endFill=1;html=1;strokeWidth=1.5;strokeColor=#000000;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477" y="215" as="sourcePoint"/>
+            <mxPoint x="643" y="215" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 消息 ④ DB→Auth: user record（返回，虚线） -->
+        <mxCell id="17" value="④ user record" style="endArrow=open;endFill=0;dashed=1;html=1;strokeWidth=1.5;strokeColor=#555555;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643" y="262" as="sourcePoint"/>
+            <mxPoint x="477" y="262" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 消息 ⑤ Auth→API: JWT token（返回，虚线） -->
+        <mxCell id="18" value="⑤ JWT token" style="endArrow=open;endFill=0;dashed=1;html=1;strokeWidth=1.5;strokeColor=#555555;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="463" y="300" as="sourcePoint"/>
+            <mxPoint x="297" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 消息 ⑥ API→Client: 200 OK + JWT（返回，虚线） -->
+        <mxCell id="19" value="⑥ 200 OK + JWT" style="endArrow=open;endFill=0;dashed=1;html=1;strokeWidth=1.5;strokeColor=#555555;fontSize=12;labelPosition=center;verticalLabelPosition=bottom;align=center;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="283" y="345" as="sourcePoint"/>
+            <mxPoint x="127" y="345" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <!-- 图题 -->
+        <mxCell id="20" value="图：用户登录时序图（Login Sequence Diagram）" style="text;html=1;align=center;fontSize=13;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="472" width="500" height="24" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

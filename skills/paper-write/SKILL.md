@@ -61,7 +61,7 @@ description: 本科与硕士学位论文全流程撰写辅助。支持大纲审�
 
 | 任务 | 文件 |
 |------|------|
-| 问题与格式检查（错别字 / 标点 / 版式 / 图表与公式编号 / 章节引用等） | [check-issues-and-format.md](reference/check-issues-and-format.md) |
+| 问题与格式检查（错别字 / 标点 / 版式 / 图表与公式编号 / 章节引用 / 重复段落 / 术语一致性） | [check-issues-and-format.md](reference/check-issues-and-format.md) |
 
 ---
 
