@@ -243,6 +243,7 @@
 | [Antfu Skills](https://github.com/antfu/skills)                                                    | 知名开发者实践，工程化质量高                            |
 | [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills)                                 | 偏 Web / 全栈场景                              |
 | [Awesome Agent Skills](https://github.com/JackyST0/awesome-agent-skills)                           | 社区精选索引，「awesome 系」风格                      |
+| [Xquik x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper/tree/master/skills/x-twitter-scraper) | X/Twitter 数据与自动化 Skill，支持 REST、MCP、webhooks 与 SDK 路由 |
 | [Ultimate Agent Skills Collection](https://github.com/ZhanlinCui/Ultimate-Agent-Skills-Collection) | 多来源汇总，适合深挖扫货                              |
 | [Awesome OpenClaw Skills](https://github.com/VoltAgent/awesome-openclaw-skills)                    | OpenClaw 专属，5400+ 技能已分类                   |
 | [code-review-skill](https://github.com/awesome-skills/code-review-skill)                           | 代码审查专项，覆盖 React / Vue / Rust / TypeScript |
