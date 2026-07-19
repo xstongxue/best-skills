@@ -26,7 +26,7 @@ description: 公众号/自媒体全流程。根据用户表述自动匹配：撰
 | 序号  | 风格       | 触发词（互不重复）          | 参考文件                                                                           | 篇幅          |
 | --- | -------- | ------------------ | ------------------------------------------------------------------------------ | ----------- |
 | 1   | 默认       | （未指定时）             | [writing_style.md](reference/writing_style.md)                                 | 2000–4000 字 |
-| 2   | 高流量/爆款   | 高流量、爆款、像 Skills 那篇 | [viral_style.md](reference/viral_style.md)                                     | 2500–4000 字 |
+| 2   | 高流量/爆款   | 高流量、爆款、像 Skills 那篇 | [viral_style.md](reference/viral_style.md)                    7                 | 2500–4000 字 |
 | 3   | 清单体/方法论  | 清单体、方法论、干货、步骤      | [checklist_methodology_style.md](reference/checklist_methodology_style.md)     | 2000–4000 字 |
 | 4   | 资源盘点     | 盘点、替代方案、合集         | [resource_roundup_style.md](reference/resource_roundup_style.md)               | 3000–6000 字 |
 | 5   | 个人实测推荐   | 个人实测、亲身推荐          | [personal_tool_review_style.md](reference/personal_tool_review_style.md)       | 4000–7000 字 |
@@ -48,6 +48,7 @@ description: 公众号/自媒体全流程。根据用户表述自动匹配：撰
 
 1. **读取风格文件**：按「二、写作风格」选择对应 reference 文件，严格遵循其写作规范与结尾语
 2. **通用要求**：故事化开头、带情感色彩、准备 2–3 个备选标题
+3. **标题层级**：文章标题用 `# 一级标题`，正文章节也从 `#` 开始（不用 `##`），子节用 `##`，以此类推
 
 ### Step 4：生成标题
 
