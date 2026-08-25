@@ -18,16 +18,16 @@
 
 ![16：9封面预览](preview/16to9_cover.drawio.png)
 
-**手绘图（[excalidraw-diagram](skills/excalidraw-diagram/SKILL.md)）** · 源文件：[excalidraw-transformer.excalidraw](preview/excalidraw-transformer.excalidraw.drawio)
+**手绘图（[excalidraw-diagram](skills/excalidraw-diagram/SKILL.md)）** · 源文件：[excalidraw-transformer.excalidraw](preview/excalidraw-transformer.excalidraw)
 
 ![公众号封面预览](preview/excalidraw-transformer.png)
 
 **答辩 PPT（[pptgen-drawio](skills/pptgen-drawio/SKILL.md)）**
 
 - **风格一 · 经典学术**：源文件  
-  [paper-defense-style1-classic.drawio](preview/paper-defense.drawio) · [paper-defense-style1-classic.pptx](preview/paper-defense.pptx)
+  [paper-defense-style1-classic.drawio](preview/paper-defense-style1-classic.drawio) · [paper-defense-style1-classic.pptx](preview/paper-defense-style1-classic.pptx)
 - **风格四 · 科技明快**：源文件  
-  [paper-defense-style4-tech.drawio](preview/paper-defense.drawio) · [paper-defense-style4-tech.pptx](preview/paper-defense.pptx)
+  [paper-defense-style4-tech.drawio](preview/paper-defense-style4-tech.drawio) · [paper-defense-style4-tech.pptx](preview/paper-defense-style4-tech.pptx)
 
 <table><tr>
 <td><img src="preview/paper-defense1.jpg" alt="答辩PPT预览1"/></td>
@@ -82,7 +82,7 @@
 
 > **paper-write**：统一 Skill，**理工（science-*）与文科（liberal-*）命名区分**。支持大纲审核（理工/文科）、结构仿写（理工：绪论/摘要/实验；文科：绪论/摘要/文献综述/案例分析/对策）、参考文献、润色（通用/实验章节/文科章节）、扩写/缩写、防 AIGC、中英互译、结构化信息提取。  
 > **codegen-doc**：统一 Skill，匹配论文章节、项目梳理、重点问题、简历项目描述。  
-> **pptgen-drawio**：支持论文答辩与通用汇报两种模式，输出 .drawio 后可用 drawio2pptx 导出 .pptx。  
+> **pptgen-drawio**：支持论文答辩与通用汇报两种模式，页数按答辩时长换算，正文字号按画布 40 pt（≈ 常规 PPT 27 pt）。流程是生成 `.drawio` → 导出 `.pptx` → **必跑修补脚本**（中文文本框会被误判成不换行，字冲出画布）→ 量真实字体宽度校验有没有溢出。  
 > 模型架构图、技术栈图、考试示意图等详见「[图表绘制](#图表绘制)」章节。
 
 ## 中文发明专利
@@ -187,7 +187,7 @@
 | 简历项目描述 | codegen-doc | 「按这个格式把当前项目写成简历项目经历」    |
 
 
-> **codegen-doc**：根据用户表述自动匹配论文章节、项目梳理、重点问题、简历项目描述。
+> **codegen-doc**：根据用户表述自动匹配论文章节、项目梳理、重点问题、简历项目描述。产出给导师、评委、HR、领导看，格式由对方指定。要给新同事看的上手文档，用下面的 project-docs。
 
 ## 项目深度文档
 
@@ -195,9 +195,11 @@
 | 用途 | Skill | 示例 Prompt |
 | --- | --- | --- |
 | 生成 9 篇新人文档（架构/设计/代码导读/运行时等） | project-docs | 「帮我为这个项目生成新人文档」「深入理解这个项目，写文档」「帮我写项目文档给新来的同事看」 |
+| 只生成其中某几篇 | project-docs | 「帮我写这个项目的架构文档和调试指南」 |
+| 代码改动后更新文档 | project-docs | 「代码改了，更新一下项目文档」 |
 
 
-> **project-docs**：对任意代码项目生成一套面向新人的循序渐进文档集，输出到 `docs/` 目录。共 9 篇：架构总览 → 设计思想 → 语言特性 → 代码导读 → 运行时模型 → 构建指南 → 对接指南 → 调试指南 → 设计规范。先用 Explore agent 全面探索项目，再按编号顺序生成；每篇含 ASCII 图、表格、真实代码示例与速查清单，不适用的篇章可跳过。
+> **project-docs**：给任意代码项目写一套新人上手文档，输出到 `docs/`。9 篇按阅读顺序编号：架构总览 → 设计思想 → 语言特性 → 代码导读 → 运行时模型 → 构建指南 → 对接指南 → 调试指南 → 设计规范，每篇 300–600 行；可全写、只写几篇，或代码改动后只更新受影响的篇目。先按项目类型（系统 / Web 后端 / 前端 / 库 / 数据脚本）决定哪几篇换写法、哪几篇跳过。引用代码带 `path:line`；`docs/` 非空时先问覆盖还是备份。
 
 ## 工具与扩展
 
@@ -224,7 +226,8 @@
 
 - **Cursor**：`C:/Users/xs/.cursor/skills/` 或项目内 `.cursor/skills/`
 - **Claude Code**：`C:/Users/xs/.claude/skills/` 或项目内 `.claude/skills/`
-- **Codex**：`$CODEX_HOME/skills/` 或项目内 `.codex/skills/`
+- **Codex**：`C:/Users/xs/.codex/skills/` 或项目内 `.codex/skills/`
+- **OpenCode**：`C:/Users/xs/.config/opencode/skills/` 或项目内 `.opencode/skills/`
 
 ## 更多公开 Skills 资源
 
