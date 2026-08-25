@@ -8,15 +8,15 @@
 
 ## 论文答辩模式页序（通用）
 
-本风格在论文答辩模式下沿用 `pptgen-drawio/SKILL.md` 中定义的 **23 页通用页序**（封面、目录、01–06 各章节标题 + 内容、已有成果、致谢 / Q&A），本文件仅定义**配色/字体/版式实现细节**。
+页数与页序由 `pptgen-drawio/SKILL.md` 的 2.1 按答辩时长换算，本文件只定义**配色/字体/版式实现细节**。
 
 ---
 
 ## 换行约定（避免导出特殊字符）
 
-- **只用真实 `\n` 做换行**（脚本里写 `"第 1 行\\n第 2 行"`）
-- **禁止**在 `value="..."` 中写 `&#xa;`、`&lt;br&gt;` 等实体或 HTML 标签
-- 依靠 `whiteSpace=wrap;html=1;` 实现自动换行；容器高度需预留足够空间
+- **换行用 `&#xa;`**（`value="第 1 行&#xa;第 2 行"`）。属性里的字面换行会被 XML 规范化成空格，导出后变一行
+- 要拆成独立段落用 `&lt;br&gt;`；不要在 `value` 里写 `<font>` / `<b>` 这类标签
+- 依靠 `whiteSpace=wrap;html=1;` 实现自动换行；框高够不够跑 `scripts/render_check.py` 验，不要靠估
 
 ## 配色系统
 
@@ -29,12 +29,24 @@
 
 ## 字体规范
 
-- **整体与风格一保持一致**：封面主标题/副标题、目录标题与条目、节标题数字与章节名、内容页标题/正文/列表、图题/表题、底部日期、致谢等，统一沿用风格一在 `style1-classic-academic.md` 中给出的 `微软雅黑` 字体与字号体系。  
+- **整体与风格一保持一致**：封面主标题/副标题、目录标题与条目、节标题数字与章节名、内容页标题/正文/列表、图题/表题、底部日期、致谢等，统一沿用风格一在 `style1-classic-academic.md` 中给出的 `微软雅黑` 字体与字号体系。抄的时候用那张表里 **画布 `fontSize`** 那一列。
 - 如需强调“科技感”，可以在**个别英文单词或小标题**上适度使用科技感强的西文字体（如 `Century Gothic`），但不改变整体中文字体与字号级别。
+
+> ⚠️ **字号只认「画布 `fontSize`」这一套值**：1920×1080 画布导出后是 20 英寸宽，
+> 是标准幻灯片（13.33 英寸）的 1.5 倍，所以 `fontSize=24` 投影出来只有 16 pt。
+> 常用几档：正文 / 要点 **40**、页内小标题 **48**、顶栏标题 **54**、图题表题 **30**、页脚页码 **24**、
+> 节标题数字 **135**、节标题章节名 **72**。
+>
+> 正文用 `fontSize=40` 时，通栏 1680 px 一行放约 **30 个中文字**，两栏（每栏 800 px）一行只有 **14 字**。
+> 装不下就改版式或删字，不要缩字号。
+
+> ⚠️ **源模板里的 `方正尚酷简体` / `Garage Gothic` 别照抄**：这两个字体多数机器上没装，
+> 导出后 PowerPoint 会替换成别的字体，行宽变了，排版跟着错位，`render_check.py` 量出来的宽度也不作数。
+> 中文一律用 `微软雅黑`；想要科技感就换成装机自带的 `Century Gothic` 或 `Arial`，只用在英文上。
 
 ## 版式规则（Draw.io 实现要点）
 
-- **基础结构与风格一完全一致**：封面、目录、节标题页、内容页、致谢页等整体布局（顶栏 120 px + 强调色细线 6 px + 底部细线 + 右下角日期等）全部复用风格一，只是将主色替换为科技蓝 `#0170C1`（强调色仍可用 `#C9A84C`，或按需要选用同色系浅/深蓝做强调）。  
+- **基础结构与风格一完全一致**：封面、目录、节标题页、内容页、致谢页等整体布局（顶栏 150 px + 强调色细线 8 px + 底部细线 + 右下角日期页码等）全部复用风格一，只是将主色替换为科技蓝 `#0170C1`（强调色仍可用 `#C9A84C`，或按需要选用同色系浅/深蓝做强调）。  
 - “科技明快 / 现代前沿”主要通过配色和少量小装饰元素体现，不改变整体结构。
 
 ### 通用装饰（可选增强）
@@ -42,6 +54,9 @@
 - 底部可叠加一条科技蓝细线作为装饰（与风格一底部细线并存或替换）。
 
 ## Draw.io XML 关键样式片段
+
+> 下面所有 `fontSize` 都是**画布值**，可以直接抄。含文字的 cell 一律带 `whiteSpace=wrap;html=1;`，
+> 框高用 `scripts/textmetrics.py` 的 `box_h_px()` 量，不要照抄示例里的高度。
 
 ```xml
 <!-- 顶部左小色块 -->
@@ -59,14 +74,14 @@
   <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
 </mxCell>
 
-<!-- 页面标题 -->
-<mxCell id="ptitle" value="目录页" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
-  <mxGeometry x="120" y="80" width="600" height="60" as="geometry"/>
+<!-- 页面标题（fontSize=54）-->
+<mxCell id="ptitle" value="目录" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=54;fontStyle=1;fontColor=#0170C1;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="80" width="900" height="80" as="geometry"/>
 </mxCell>
 
-<!-- 英文副标题 -->
-<mxCell id="en" value="CONTENTS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
-  <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
+<!-- 英文副标题（fontSize=36，西文字体只用在英文上）-->
+<mxCell id="en" value="CONTENTS" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#000000;fontFamily=Century Gothic;" vertex="1" parent="1">
+  <mxGeometry x="120" y="165" width="600" height="56" as="geometry"/>
 </mxCell>
 
 <!-- 封面底部全宽横条（封面页用） -->
@@ -74,8 +89,13 @@
   <mxGeometry x="0" y="1040" width="1920" height="40" as="geometry"/>
 </mxCell>
 
-<!-- 封面主标题 -->
-<mxCell id="ctitle" value="基于 XX 的系统设计与实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontColor=#000000;fontFamily=方正尚酷简体;" vertex="1" parent="1">
-  <mxGeometry x="120" y="340" width="1400" height="100" as="geometry"/>
+<!-- 封面主标题（fontSize=60）-->
+<mxCell id="ctitle" value="基于 XX 的系统设计与实现" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=60;fontStyle=1;fontColor=#000000;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="340" width="1600" height="120" as="geometry"/>
+</mxCell>
+
+<!-- 内容页正文（fontSize=40）-->
+<mxCell id="body" value="第 1 行&#xa;第 2 行" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=40;fontColor=#1A1A2E;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="120" y="240" width="1680" height="160" as="geometry"/>
 </mxCell>
 ```

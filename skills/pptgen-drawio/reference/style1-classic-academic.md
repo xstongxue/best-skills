@@ -8,28 +8,26 @@
 
 ---
 
-## 页面数量与章节排版（必须严格遵守）
+## 各页字号（页数本身由 SKILL.md 2.1 按时长换算）
 
-| 页码 | 页面类型 | 章节/内容 | 说明 |
-|------|----------|-----------|------|
-| 1 | 封面 | 学校名、论文题目、汇报人、指导教师、学科专业、日期 | 主标题 33 pt，副标题 33 pt，**封面不需要底部横线** |
-| 2 | 目录 | 目录、01–06 章节目录项、CONTENTS、日期 | 目录标题 30 pt，目录项 24 pt，CONTENTS 60 pt |
-| 3 | 节标题 | 01 研究背景与意义 | 大数字 90 pt，章节名 48 pt |
-| 4–6 | 内容页 | 01. 研究背景与意义（研究背景、研究意义、应用场景） | 3 页，标题 30 pt，正文 **18 pt** |
-| 7 | 节标题 | 02 国内外研究现状 | 大数字 90 pt，章节名 48 pt |
-| 8–9 | 内容页 | 02. 国内外研究现状（EED 数据集、DLA-DETR-Light/Plus、三类问题） | 2 页，标题 30 pt，正文 **18 pt** |
-| 10 | 节标题 | 03 方法总览 | 大数字 90 pt，副标题 21 pt |
-| 11–13 | 内容页 | 03. 方法总览（基准模型不足、Light 改进、Plus 改进） | 3 页，标题 30 pt，子标题 18 pt，正文 **18 pt** |
-| 14 | 节标题 | 04 实验结果 | 大数字 90 pt，副标题 21 pt |
-| 15–16 | 内容页 | 04. 实验结果（定量分析、对比实验、消融实验） | 2 页，标题 30 pt，表题 16.5 pt |
-| 17 | 节标题 | 05 系统设计 | 大数字 90 pt，副标题 21 pt |
-| 18–19 | 内容页 | 05. 系统设计与实现（架构图、系统演示、功能特点） | 2 页，标题 30 pt，图题 16.5 pt，列表 **18 pt** |
-| 20 | 节标题 | 06 总结与展望 | 大数字 90 pt，章节名 48 pt |
-| 21 | 内容页 | 06. 总结与展望（工作总结、未来展望） | 1 页，标题 30 pt，小标题 19.5 pt，正文 **18 pt** |
-| 22 | 内容页 | 已有成果（专利等） | 1 页，标题 30 pt，正文 24 pt |
-| 23 | 致谢 | 感谢语、Q & A、汇报人信息 | 主句 39 pt，Q&A 60 pt，落款 16.5 pt |
+下表是**每种页面类型的字号**，不是页数规定。哪一章几页看 SKILL.md 的时长换算表。
 
-**合计：23 页**
+> 表里的数字是**画布 `fontSize`**，写 XML 时直接抄。它们已经按 ×1.5 换算过——
+> 1920×1080 画布导出后是 20 英寸宽，是标准幻灯片（13.33 英寸）的 1.5 倍。
+> 括号里是导出后在常规 PPT 里的视觉大小，只用来对照，**不要写进 XML**。
+
+| 页面类型 | 画布 `fontSize` |
+|---|---|
+| 封面 | 主标题 60（≈40），落款 30（≈20），日期 27（≈18），**不画底部横线** |
+| 目录 | 顶栏标题 54（≈36），编号 48（≈32），目录项 44（≈29），CONTENTS 90（≈60） |
+| 节标题（过渡） | 大数字 135（≈90），章节名 72（≈48） |
+| 内容页 | 顶栏标题 54（≈36），小标题 48（≈32），正文 **40（≈27）** |
+| 图表页 | 顶栏标题 54，图题/表题 30（≈20） |
+| 总结与展望 | 顶栏标题 54，小标题 48，正文 **40** |
+| 已有成果 | 顶栏标题 54，正文 40 |
+| 致谢 / Q&A | 主句 58（≈39），Q&A 90（≈60），落款 27（≈18） |
+
+> 源文件 `答辩PPT.pptx` 是 23 页，那是一份 20 分钟以上答辩的真实页数。**不要把 23 当默认值**——10 分钟答辩按 SKILL.md 2.1 是 17 页。
 
 ---
 
@@ -53,71 +51,95 @@
 
 ## 字体规范（按预答辩 PPT 实测）
 
-| 用途 | 字体 | 字号 | 说明 |
-|------|------|------|------|
-| 封面主标题 | `微软雅黑` | 33 pt，加粗 | 论文题目主副两行 |
-| 封面学校/类型 | `微软雅黑` | 默认 | XX大学、硕士学位论文预答辩 |
-| 封面落款（汇报人/导师/专业） | `微软雅黑` | 默认 | 汇报人、指导教师、学科专业 |
-| 封面日期 | `微软雅黑` | 15 pt | 2026 年 3 月 |
-| 目录标题 | `微软雅黑` | 30 pt | 「目录」 |
-| 目录项 | `微软雅黑` | 24 pt | 01–06 章节名 |
-| 目录英文大字 | `微软雅黑` 或 `Arial` | 60 pt | CONTENTS |
-| 节标题数字 | `微软雅黑` | 90 pt | 01、02、03… |
-| 节标题章节名 | `微软雅黑` | 48 pt | 研究背景与意义、国内外研究现状… |
-| 内容页顶栏标题 | `微软雅黑` | 30 pt，白色 | 01. 研究背景与意义 |
-| 内容页小标题 | `微软雅黑` | 24 pt | 研究背景、研究意义 |
-| 内容页正文 | `微软雅黑` | **18 pt** | 正文段落（所有风格统一） |
-| 内容页列表/要点 | `微软雅黑` | **18 pt** | bullets、编号列表（所有风格统一） |
-| 图题/表题 | `微软雅黑` | 16.5 pt | 图 5-1、表 4-1 |
-| 底部日期 | `微软雅黑` 或 `Calibri` | 13.5 pt | 2026 年 3 月 |
-| 致谢主句 | `微软雅黑` | 39 pt | 感谢各位老师的聆听与指导！ |
-| 致谢 Q&A | `微软雅黑` 或 `Arial` | 60 pt | Q & A |
-| 致谢落款 | `微软雅黑` | 16.5 pt | 汇报人、指导教师、日期 |
+> ⚠️ **下表的 pt 是源 pptx 里的值（13.33 英寸标准幻灯片），不能直接抄成 drawio 的 `fontSize`。**
+> 1920×1080 画布导出后是 20 英寸宽，是标准幻灯片的 1.5 倍，所以
+> **画布 `fontSize` = 表里的 pt × 1.5**。照抄会小掉三分之一，现场后排看不清。
+>
+> 常用几档换算好的画布值（跟 SKILL.md 的字号表一致，优先用这个）：
+>
+> | 用途 | 画布 `fontSize` | 表里的 pt |
+> |---|---|---|
+> | 内容页正文 / 列表要点 | **40** | 27 |
+> | 内容页小标题 | **48** | 32 |
+> | 内容页顶栏标题 | **54** | 36 |
+> | 图题 / 表题 | **30** | 20 |
+> | 页脚 / 页码 / 日期 | **24** | 16 |
+> | 节标题页大数字 | **135** | 90 |
+> | 节标题页章节名 | **72** | 48 |
+>
+> 用 40 pt 正文时，800 px 宽的栏一行只放 **14 个中文字**，要点必须写成短语。
+
+| 用途 | 字体 | 源 pptx pt | **画布 `fontSize`** | 说明 |
+|------|------|---|---|------|
+| 封面主标题 | `微软雅黑` | 33，加粗 | **60**（稍加大） | 论文题目主副两行 |
+| 封面学校/类型 | `微软雅黑` | 26 | **39** | XX大学、硕士学位论文预答辩 |
+| 封面落款（汇报人/导师/专业） | `微软雅黑` | 20 | **30** | 汇报人、指导教师、学科专业 |
+| 封面日期 | `微软雅黑` | 15 | **27**（稍加大） | 2026 年 3 月 |
+| 目录标题 | `微软雅黑` | 30 | **54** | 「目录」 |
+| 目录项 | `微软雅黑` | 24 | **44** | 01–06 章节名 |
+| 目录英文大字 | `微软雅黑` 或 `Arial` | 60 | **90** | CONTENTS |
+| 节标题数字 | `微软雅黑` | 90 | **135** | 01、02、03… |
+| 节标题章节名 | `微软雅黑` | 48 | **72** | 研究背景与意义、国内外研究现状… |
+| 内容页顶栏标题 | `微软雅黑` | 30 | **54**，白色 | 01. 研究背景与意义 |
+| 内容页小标题 | `微软雅黑` | 24 | **48** | 研究背景、研究意义 |
+| 内容页正文 | `微软雅黑` | 27 | **40** | 正文段落（所有风格统一） |
+| 内容页列表/要点 | `微软雅黑` | 27 | **40** | bullets、编号列表（所有风格统一） |
+| 图题/表题 | `微软雅黑` | 16.5 | **30**（稍加大） | 图 5-1、表 4-1 |
+| 页脚日期 / 页码 | `微软雅黑` 或 `Calibri` | 13.5 | **24**（稍加大） | 2026 年 3 月 |
+| 致谢主句 | `微软雅黑` | 39 | **58** | 感谢各位老师的聆听与指导！ |
+| 致谢 Q&A | `微软雅黑` 或 `Arial` | 60 | **90** | Q & A |
+| 致谢落款 | `微软雅黑` | 16.5 | **27** | 汇报人、指导教师、日期 |
+
+> 少数几档（封面主标题、日期、图题、页脚）在换算之后又往上提了一点——
+> 源文件那几处按 ÷1.5 反推只有 20–24，投影到教室后排偏小。表里给的是实测调过的值。
 
 ---
 
 ## 版式规则（Draw.io 实现要点）
 
+> 下面所有 pt 都是**画布 `fontSize`**（已经乘过 1.5），可以直接写进 XML；px 是 1920×1080 画布坐标。
+
 ### 封面页
 
-- 顶部 `#1F497D` 或 `#1B2A4A` 色块：全宽 × 120 px
-- 顶部色块下方：`#C9A84C` 金色细线分隔条（高度 6 px）
-- 主标题：`微软雅黑`，33 pt 加粗，`#1A1A2E`，两行（题目主副）
+- 顶部 `#1F497D` 或 `#1B2A4A` 色块：全宽 × 150 px
+- 顶部色块下方：`#C9A84C` 金色细线分隔条（高度 8 px）
+- 主标题：`微软雅黑`，`fontSize=60` 加粗，`#1A1A2E`，两行（题目主副）
 - 背景：`#F7F8FA`
-- 落款区：汇报人、指导教师、学科专业、日期，左对齐或居中
+- 落款区：汇报人、指导教师、学科专业、日期，`fontSize=30`，左对齐或居中
 - **封面底部不画装饰横线**（底部细线仅用于各内容页）
 
 ### 目录页
 
-- 左侧目录列表：01–06 章节，24 pt
-- 右侧或中部：CONTENTS 大字 60 pt
-- 底部日期：13.5 pt，`#4A5568`
+- 左侧目录列表：01–06 章节，章节名 `fontSize=44`，编号 `fontSize=48`（金色），行距 122 px
+- 右侧或中部：CONTENTS 大字 `fontSize=90`，`#E4E8EF`
+- 底部日期：`fontSize=24`，`#4A5568`
 
 ### 节标题（过渡）页
 
 - 全宽 `#1F497D` 或 `#1B2A4A` 大色块铺满整页
-- 左侧或居中：大数字 90 pt（01、02…）
-- 右侧或下方：章节名 48 pt，白色
+- 左侧或居中：大数字 `fontSize=135`（01、02…）
+- 右侧或下方：章节名 `fontSize=72`，白色
 - 可叠加半透明强调色数字水印
 
 ### 内容页
 
-- 顶部 `#1F497D` 或 `#1B2A4A` 色块（高 120 px）+ `#C9A84C` 金线（高 6 px）
-- 标题文字嵌入顶部色块内，左对齐，`微软雅黑`，30 pt，白色
-- 正文区：`微软雅黑`，19.5–24 pt，`#1A1A2E`；关键词用 `#C9A84C` 强调
+- 顶部 `#1F497D` 或 `#1B2A4A` 色块（高 150 px）+ `#C9A84C` 金线（高 8 px）
+- 标题文字嵌入顶部色块内，左对齐，`微软雅黑`，`fontSize=54`，白色
+- 页内小标题 `fontSize=48`，主色
+- 正文区：`微软雅黑`，**`fontSize=40`**，`#1A1A2E`，`y=230..990` 之间；关键词用 `#C9A84C` 强调
 - 底部细线：`#E2E8F0`，全宽 × 4 px（仅内容页使用，封面不需要）
-- 底部右侧：日期 13.5 pt，`#4A5568`
+- 底部左侧日期、右侧页码：`fontSize=24`，`#4A5568`
 
 ### 致谢页
 
-- 居中主句：39 pt
-- Q & A：60 pt，醒目
-- 底部：汇报人、指导教师、日期，16.5 pt
+- 居中主句：`fontSize=58`
+- Q & A：`fontSize=90`，金色，醒目
+- 底部：汇报人、指导教师、日期，`fontSize=27`
 
 ### 通用装饰
 
-- 小方块：8 × 36 px 或 14 × 30 px，`fillColor=#C9A84C`，段落标记
-- 底部右侧：日期，13.5 pt，`#4A5568`
+- 段落标记小方块：`10 × 42 px`，`fillColor=#C9A84C`，垂直位置对齐正文首行（`y + fontSize × 0.42`）
+- 底部右侧：日期，`fontSize=24`，`#4A5568`
 
 ---
 
@@ -126,14 +148,15 @@
 Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常折行：
 
 1. **style 加 `whiteSpace=wrap`**：所有含文字的 cell 都必须加
-2. **容器高度要足够**：正文行高约 1.4 倍字号，多行文字需预留 `行数 × 字号 × 1.5` 的高度
+2. **容器高度要足够**
 3. **不要用 `overflow=hidden`**：会裁掉溢出文字
 
-> 高度参考：单行 ≈ 字号×2，两行 ≈ 字号×3.5，三行 ≈ 字号×5，宁可偏大不要偏小。
+> 高度不要靠系数估。写完跑 `python scripts/render_check.py xxx.pptx`，脚本用本机真实字体量出每个框需要多高，直接报哪一页会裁字。
 
-> **换行约定（避免特殊字符）**：  
-> - 在生成脚本里，**只用真实 `\n` 做换行**（例如 `"第 1 行\\n第 2 行"`），不要在 `value="..."` 中写 `&#xa;`、`&lt;br&gt;` 等实体或 HTML 标签；  
-> - `whiteSpace=wrap;html=1;` 负责自动换行，`value` 里只保留普通文字 + `\n`，否则导出到 PPT 时这些实体可能会原样显示成“特殊字符”。
+> **换行约定**：  
+> - **换行写成 `&#xa;`**（`value="第 1 行&#xa;第 2 行"`）。属性值里的字面换行会被 XML 规范化成空格，导出后会挤成一行；  
+> - 要把内容拆成独立段落用 `&lt;br&gt;`；  
+> - `whiteSpace=wrap;html=1;` 负责自动折行，`value` 里不要混 `<font>` / `<b>` 这类标签。详见 SKILL.md checklist 第 5 条的实测对照表。
 
 ---
 
@@ -147,27 +170,28 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
 
 <!-- 顶部深蓝色块（主色 #1F497D 或 #1B2A4A） -->
 <mxCell id="topbar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1F497D;strokeColor=none;" vertex="1" parent="1">
-  <mxGeometry x="0" y="0" width="1920" height="120" as="geometry"/>
+  <mxGeometry x="0" y="0" width="1920" height="150" as="geometry"/>
 </mxCell>
 
 <!-- 金色分隔线 -->
 <mxCell id="line" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" vertex="1" parent="1">
-  <mxGeometry x="0" y="120" width="1920" height="6" as="geometry"/>
+  <mxGeometry x="0" y="150" width="1920" height="8" as="geometry"/>
 </mxCell>
 
-<!-- 内容页标题（30 pt，嵌入顶色块内） -->
-<mxCell id="title" value="  01. 研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="0" y="0" width="1920" height="120" as="geometry"/>
+<!-- 内容页标题（fontSize=54，嵌入顶色块内） -->
+<mxCell id="title" value="  01. 研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=54;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="0" y="0" width="1920" height="150" as="geometry"/>
 </mxCell>
 
-<!-- 左侧小方块装饰（金铜色） -->
+<!-- 左侧小方块装饰（金铜色），高度跟着正文字号走 -->
 <mxCell id="badge" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#C9A84C;strokeColor=none;" vertex="1" parent="1">
-  <mxGeometry x="120" y="210" width="8" height="36" as="geometry"/>
+  <mxGeometry x="120" y="247" width="10" height="42" as="geometry"/>
 </mxCell>
 
-<!-- 正文内容（19.5–24 pt） -->
-<mxCell id="body" value="正文第 1 行\n正文第 2 行" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=20;fontColor=#1A1A2E;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="160" y="180" width="1680" height="720" as="geometry"/>
+<!-- 正文内容（fontSize=40，≈ 标准幻灯片 27 pt）
+     框高不要照抄：用 scripts/textmetrics.py 的 box_h_px() 按真实字体量出来 -->
+<mxCell id="body" value="正文第 1 行&#xa;正文第 2 行" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;fontSize=40;fontColor=#1A1A2E;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="160" y="230" width="1680" height="160" as="geometry"/>
 </mxCell>
 
 <!-- 底部装饰细线 -->
@@ -175,18 +199,18 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
   <mxGeometry x="0" y="1040" width="1920" height="4" as="geometry"/>
 </mxCell>
 
-<!-- 底部日期（13.5 pt） -->
-<mxCell id="footer" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=14;fontColor=#4A5568;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="1600" y="1044" width="300" height="36" as="geometry"/>
+<!-- 底部日期（fontSize=24） -->
+<mxCell id="footer" value="2026 年 3 月" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;fontSize=24;fontColor=#4A5568;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="1500" y="1040" width="300" height="34" as="geometry"/>
 </mxCell>
 
-<!-- 节标题页：大数字 90 pt -->
-<mxCell id="section_num" value="01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=90;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
-  <mxGeometry x="200" y="350" width="400" height="150" as="geometry"/>
+<!-- 节标题页：大数字 fontSize=135 -->
+<mxCell id="section_num" value="01" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=135;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
+  <mxGeometry x="200" y="350" width="600" height="170" as="geometry"/>
 </mxCell>
 
-<!-- 节标题页：章节名 48 pt -->
-<mxCell id="section_title" value="研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=48;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
+<!-- 节标题页：章节名 fontSize=72 -->
+<mxCell id="section_title" value="研究背景与意义" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=72;fontStyle=1;fontColor=#FFFFFF;fontFamily=微软雅黑;" vertex="1" parent="1">
   <mxGeometry x="600" y="400" width="800" height="80" as="geometry"/>
 </mxCell>
 
@@ -197,6 +221,6 @@ Draw.io 文字默认**不换行**，必须同时满足以下三条才能正常�
 
 ---
 
-## 论文答辩模式默认页序
+## 页数与页序
 
-本风格沿用 `pptgen-drawio/SKILL.md` 中定义的 **23 页通用页序**（封面、目录、01–06 各章节标题 + 内容、已有成果、致谢 / Q&A），仅覆盖**配色与版式实现细节**。如需调整整体页数或章节排布，请在 SKILL 中统一修改。
+页数由 `pptgen-drawio/SKILL.md` 的 2.1 按答辩时长换算，本文件只覆盖**配色与版式实现细节**。
