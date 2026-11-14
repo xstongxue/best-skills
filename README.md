@@ -270,6 +270,7 @@
 | [SkillStore](https://skillstore.io/zh-hans)          | 中文友好，经过安全审查          | 团队使用或合规敏感场景    |
 | [Skills.sh](https://skills.sh/)                      | 热门趋势技能，支持一键安装        | 想快速尝鲜新技能的      |
 | [aitmpl.com/skills](https://www.aitmpl.com/skills)   | Claude Code 模板集合     | Claude Code 用户 |
+| [HOL Plugins](https://hol.org/plugins) | 插件目录，带信任评分 | 想按评分筛选插件的人 |
 
 
 **源码仓库**：想学实现、深度定制，看这里
