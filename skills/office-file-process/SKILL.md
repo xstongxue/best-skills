@@ -1,6 +1,6 @@
 ---
 name: office-file-process
-description: 处理 Office 文档的一站式 skill：Word(.doc/.docx/.dotx)、Excel(.xls/.xlsx/.xlsm/.csv)、PowerPoint(.ppt/.pptx/.potx) 的创建、读取、编辑、提取、转换、校验。触发：『读取 word 文档』『提取 excel 内容』『看 ppt 讲了什么』、.doc 老格式打不开、生成/编辑 Word 报告/合同/模板、制作幻灯片/deck/演示文稿、写带公式的电子表格。读取优先 pandoc/markitdown 等官方工具，环境没有则走 Windows Office COM 自动化（含中文文件名、PowerShell 编码等 Windows 环境方案）；创建/编辑用 docx-js、pptxgenjs、openpyxl 等。Use whenever any .docx/.xlsx/.pptx file is the primary input or output: create, read, edit, extract, convert, or validate it.
+description: '处理 Office 文档的一站式 skill：Word(.doc/.docx/.dotx)、Excel(.xls/.xlsx/.xlsm/.csv)、PowerPoint(.ppt/.pptx/.potx) 的创建、读取、编辑、提取、转换、校验。触发：『读取 word 文档』『提取 excel 内容』『看 ppt 讲了什么』、.doc 老格式打不开、生成/编辑 Word 报告/合同/模板、制作幻灯片/deck/演示文稿、写带公式的电子表格。读取优先 pandoc/markitdown 等官方工具，环境没有则走 Windows Office COM 自动化（含中文文件名、PowerShell 编码等 Windows 环境方案）；创建/编辑用 docx-js、pptxgenjs、openpyxl 等。Use whenever any .docx/.xlsx/.pptx file is the primary input or output: create, read, edit, extract, convert, or validate it.'
 license: Proprietary. LICENSE.txt has complete terms
 ---
 
